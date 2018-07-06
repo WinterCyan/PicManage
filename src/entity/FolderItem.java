@@ -19,6 +19,7 @@ public class FolderItem extends Item {
         return name;
     }
 
+    @Override
     public Folder getFolder(){
         return folder;
     }

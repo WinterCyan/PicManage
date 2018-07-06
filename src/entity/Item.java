@@ -1,15 +1,13 @@
 package entity;
 
-import javafx.scene.image.ImageView;
 
-public class Item extends ImageView {
+public class Item {
     public static final String TYPE_PIC="picture";
     public static final String TYPE_FOLDER="folder";
     public static final String TYPE_FOLDER_DEVICE="device";
     public static final String TYPE_FOLDER_ACTIVITY="activity";
     public static final String TYPE_FOLDER_CATE="category";
     public static final String TYPE_FOLDER_PERSON="person";
-    public static final String TYPE_FOLDER_BIN="bin";
 
     public String type;
     public String name;
@@ -25,4 +23,13 @@ public class Item extends ImageView {
     public String getName(){
         return name;
     }
+
+    public Folder getFolder(){
+        return null;
+    }
+
+    public Photo getPhoto(){
+        return null;
+    }
+
 }

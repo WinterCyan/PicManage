@@ -19,6 +19,7 @@ public class PhotoItem extends Item {
         return name;
     }
 
+    @Override
     public Photo getPhoto(){
         return photo;
     }
