@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<HBox fx:id="hBox" fx:controller="test.Controller" xmlns:fx="http://javafx.com/fxml">
+    <HBox minWidth="130">
+        <Button fx:id="btn1" text="Button" onAction="#btnAction"/>
+    </HBox>
+
+    <FlowPane fx:id="flowPane">
+        <!--<VBox onMouseClicked="vBoxAction"></VBox>-->
+    </FlowPane>
+
+</HBox>

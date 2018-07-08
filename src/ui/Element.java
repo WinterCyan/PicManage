@@ -28,7 +28,19 @@ public class Element extends VBox {
         }
     }
 
-//    public Element(PhotoItem item){
+    public Element(){
+
+    }
+
+    public ImageView getThumbnail() {
+        return thumbnail;
+    }
+
+    public TextArea getNameText() {
+        return nameText;
+    }
+
+    //    public Element(PhotoItem item){
 //        thumbnail = new ImageView();
 //        //  set the height of img and name.
 //        this.item = item;

@@ -137,7 +137,8 @@ public class SetViewer {
     }
 
     private void fillPane(){
-        ArrayList<Element> elements = null;
+        ArrayList<Element> elements = new ArrayList<>();
+        elements = null;
         if (viewList.getType().equals(Item.TYPE_FOLDER)){
             for (Item item:viewList){
                 elements.add(new Element(item));
