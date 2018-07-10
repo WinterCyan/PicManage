@@ -1,4 +1,6 @@
 package ui;
 
-public class MenuPane {
+import javafx.scene.layout.VBox;
+
+public class MenuPane extends VBox {
 }

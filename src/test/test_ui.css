@@ -1,0 +1,13 @@
+.opt_box{
+    -fx-border-style: solid;
+    -fx-border-width: 0px, 0px, 3px, 0px;
+    -fx-border-color: #3498DB;
+}
+.menu_box{
+}
+.menu_label{
+    -fx-pref-width: 100;
+    -fx-pref-height: 40;
+    -fx-font-size: 24;
+    -fx-padding: 10 0 10 10;
+}

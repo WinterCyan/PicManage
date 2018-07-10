@@ -1,17 +1,11 @@
 package test;
 
-import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.FlowPane;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
@@ -26,6 +20,7 @@ public class Controller_1 {
     private boolean clicked = false;
     public static final String TYPE_SINGLE = "single";
     public static final String TYPE_DOUBLE = "double";
+    private static final String TYPE_RIGHT = "right";
     private String clickType;
 
     @FXML
@@ -78,9 +73,9 @@ public class Controller_1 {
                     }
                 }else if (event1.getButton() == MouseButton.SECONDARY){
                     System.out.println("ImageView is right-clicked.");
+                    clickType = TYPE_RIGHT;
                 }
             });
-
             flowPane.getChildren().add(vBox0);
         }
     }

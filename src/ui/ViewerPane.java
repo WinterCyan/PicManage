@@ -1,13 +1,25 @@
 package ui;
 
 import entity.PhotoList;
-import javafx.scene.layout.GridPane;
+import javafx.scene.layout.FlowPane;
 
-public class ViewerPane extends GridPane {
-    private GridPane pane;
+public class ViewerPane extends FlowPane {
+    private FlowPane pane;
     private PhotoList photoList;
 
-    public ViewerPane(GridPane pane){
+    public ViewerPane(){
+
+    }
+
+    public ViewerPane(FlowPane pane){
         this.pane = pane;
+    }
+
+    public FlowPane getPane() {
+        return pane;
+    }
+
+    public PhotoList getPhotoList() {
+        return photoList;
     }
 }
