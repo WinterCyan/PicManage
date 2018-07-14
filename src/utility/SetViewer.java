@@ -29,7 +29,7 @@ public class SetViewer {
     @FXML
     private void setAllBtn(){
         viewList.removeAll();
-        for (Photo photo:PhotoAnaly.photos)
+        for (Photo photo:PhotoAnalysis.photos)
             viewList.add(new PhotoItem(photo));
     }
     @FXML
@@ -113,7 +113,7 @@ public class SetViewer {
             while (set.next()){
                 String id = set.getString("id");
 //                idList.add(id);
-                for (Photo photo:PhotoAnaly.photos){
+                for (Photo photo:PhotoAnalysis.photos){
                     if (photo.getId().equals(id)) viewList.add(new PhotoItem(photo));
                 }
             }

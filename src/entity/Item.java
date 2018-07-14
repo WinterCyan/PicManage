@@ -11,6 +11,7 @@ public class Item {
 
     public String type;
     public String name;
+    public Info info;
 
     public String getType() {
         return type;
@@ -32,4 +33,11 @@ public class Item {
         return null;
     }
 
+    public void setInfo(Info info){
+        this.info = info;
+    }
+
+    public Info getInfo(){
+        return info;
+    }
 }

@@ -2,8 +2,12 @@ package utility;
 
 import entity.PhotoList;
 
-public class PhotoAnaly {
+import java.nio.file.Path;
+
+public class PhotoAnalysis {
     public static PhotoList photos = new PhotoList();
+    public Path path;
+
 
 
 }

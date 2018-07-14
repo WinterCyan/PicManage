@@ -11,9 +11,13 @@ import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.nio.file.Path;
+
 public class Controller_ui {
     public Stage stage;
     public Scene scene;
+
+    private Path path;
 
     @FXML
     VBox menu_pane;

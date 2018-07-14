@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.TextArea?>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" prefHeight="192.0" prefWidth="289.0"
+           xmlns:fx="http://javafx.com/fxml" fx:controller="multi_controller.Part2Controller">
+    <children>
+        <TextArea fx:id="textArea"/>
+    </children>
+</StackPane>

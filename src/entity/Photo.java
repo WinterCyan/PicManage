@@ -1,12 +1,15 @@
 package entity;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.util.Date;
 
 public class Photo {
     private String id;
     private String name;
+
     private Path dir;
+
     private String device;
     private float size;
     private Date time;
@@ -15,7 +18,6 @@ public class Photo {
     private String comment;
     private String category;
     private boolean bin;
-
     public void setId(String id) {
         this.id = id;
     }
@@ -61,6 +63,10 @@ public class Photo {
         return id;
     }
 
+    public Path getDir() {
+        return dir;
+    }
+
     public void setDir(Path dir) {
         this.dir = dir;
     }
@@ -100,5 +106,9 @@ public class Photo {
 
     public boolean isBin() {
         return bin;
+    }
+
+    public Photo(File file){
+        this.dir = file.toPath();
     }
 }

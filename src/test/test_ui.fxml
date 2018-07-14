@@ -8,22 +8,27 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.TextFlow?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1005.0" stylesheets="@test_ui.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller_ui">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1005.0" stylesheets="@test_ui.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller_ui">
    <children>
       <HBox fillHeight="false" maxHeight="47.0" styleClass="opt_box" VBox.vgrow="NEVER">
          <children>
             <FlowPane alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="56.0" text="Button">
+                  <Button id="menu_btn" mnemonicParsing="false" prefHeight="37.0" prefWidth="56.0" text="Button">
                      <FlowPane.margin>
                         <Insets left="5.0" />
+                     </FlowPane.margin>
+                  </Button>
+                  <Button id="path_chooser_btn" mnemonicParsing="false" onAction="#pathBtnAction" prefHeight="37.0" prefWidth="56.0" text="Path">
+                     <FlowPane.margin>
+                        <Insets left="10.0" />
                      </FlowPane.margin>
                   </Button>
                </children>
             </FlowPane>
             <FlowPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="56.0" text="Button">
+                  <Button id="info_btn" mnemonicParsing="false" prefHeight="37.0" prefWidth="56.0" text="Button">
                      <FlowPane.margin>
                         <Insets right="5.0" />
                      </FlowPane.margin>
@@ -39,24 +44,44 @@
       </HBox>
       <HBox VBox.vgrow="ALWAYS">
          <children>
-            <VBox styleClass="menu_box" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS">
+            <VBox maxWidth="130.0" styleClass="menu_box" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS">
                <children>
-                  <Label styleClass="menu_label" text="All" />
-                  <Label styleClass="menu_label" text="Device" />
-                  <Label styleClass="menu_label" text="Person" />
-                  <Label styleClass="menu_label" text="Activity" />
-                  <Label styleClass="menu_label" text="Cate" />
-                  <Label styleClass="menu_label" text="Bin" />
+                  <Label id="menu_label_all" styleClass="menu_label" text="All" />
+                  <Label id="menu_label_device" styleClass="menu_label" text="Device" />
+                  <Label id="menu_label_person" styleClass="menu_label" text="Person" />
+                  <Label id="menu_label_activity" styleClass="menu_label" text="Activity" />
+                  <Label id="menu_label_cate" styleClass="menu_label" text="Cate" />
+                  <Label id="menu_label_bin" styleClass="menu_label" text="Bin" />
                </children>
                <padding>
                   <Insets left="10.0" />
                </padding>
             </VBox>
-            <FlowPane HBox.hgrow="ALWAYS">
+            <FlowPane styleClass="viewer_pane" HBox.hgrow="ALWAYS" />
+            <VBox maxWidth="230.0" HBox.hgrow="ALWAYS">
                <children>
-                  <TextFlow prefHeight="200.0" prefWidth="200.0" />
-               </children></FlowPane>
-            <VBox HBox.hgrow="ALWAYS" />
+                  <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label styleClass="info_label" text="Label" />
+                     </children>
+                  </TextFlow>
+                  <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label styleClass="info_label" text="Label" />
+                     </children>
+                  </TextFlow>
+                  <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label styleClass="info_label" text="Label" />
+                     </children>
+                  </TextFlow>
+                  <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label styleClass="info_label" text="Label" />
+                     </children>
+                  </TextFlow>
+               </children>
+            </VBox>
          </children>
       </HBox>
    </children>
