@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.TextFlow?>
 
-<VBox maxWidth="230.0" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.separate_ctrl.Controller_info">
+<VBox fx:id="info_pane" maxWidth="0.0" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.separate_ctrl.Controller_info">
     <children>
         <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
             <children>
