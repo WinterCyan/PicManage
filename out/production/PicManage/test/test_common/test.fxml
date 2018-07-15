@@ -2,7 +2,7 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.HBox?>
-<HBox fx:id="hBox" fx:controller="test.Controller_1" xmlns:fx="http://javafx.com/fxml">
+<HBox fx:id="hBox" fx:controller="test.test_common.Controller_1" xmlns:fx="http://javafx.com/fxml">
     <HBox minWidth="130">
         <Button fx:id="btn1" text="Button" onAction="#btnAction"/>
     </HBox>

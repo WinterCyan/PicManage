@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 /*
  * Copyright 2002-2017 Drew Noakes
  *

@@ -24,8 +24,11 @@ public class Controller_opt {
     public void pathBtnAction() {
         DirectoryChooser chooser = new DirectoryChooser();
         File selected = chooser.showDialog(primaryStage);
-        if (selected == null) Controller_show.setPath(selected.toPath());
-        path_text.setText("Path: "+selected.toString());
+        if (selected == null) path_text.setText("No path selected.");
+        else {
+            Controller_show.setPath(selected.toPath());
+            path_text.setText("Path: "+selected.toString());
+        }
         System.out.println(selected);
     }
 

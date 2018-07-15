@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.metadata.Directory;

@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

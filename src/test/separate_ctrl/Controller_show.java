@@ -23,6 +23,11 @@ public class Controller_show {
 
     public static void setPath(Path path) {
         Controller_show.path = path;
+        refreshViewer();
         System.out.println(path);
+    }
+
+    private static void refreshViewer() {
+//        for ()
     }
 }

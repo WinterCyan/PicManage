@@ -4,7 +4,7 @@ import entity.Item;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
-import test.MetadataInfo;
+import test.test_common.MetadataInfo;
 
 import java.nio.file.Path;
 import java.util.HashMap;

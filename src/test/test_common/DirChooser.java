@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 
 import java.io.File;
 import javafx.application.Application;

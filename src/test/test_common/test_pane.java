@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 import com.drew.metadata.Directory;
 import javafx.application.Application;
 import javafx.collections.ObservableList;

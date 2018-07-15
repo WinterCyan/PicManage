@@ -1,4 +1,4 @@
-package test;
+package test.test_common;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;

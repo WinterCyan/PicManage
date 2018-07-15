@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/test_common/ScanDir.java" line="15" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/Controller_1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/Controller_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/Controller_ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/DirChooser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/DirChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/MetadataInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/MetadataInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/PhotoInfoAnaly.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_opt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_opt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/Controller_show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/info.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/opt.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/test/separate_ctrl/opt.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/single_double$A$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/single_double$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/single_double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_pane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_ui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Controller_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/Controller_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Controller_ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/Controller_ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DirChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/DirChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MetadataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/MetadataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PhotoInfoAnaly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_opt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_opt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/info.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/separate_ctrl/opt.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/separate_ctrl/opt.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/single_double.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/single_double.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_pane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test_pane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test_ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_ui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test_ui.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_common/test_ui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/InfoPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/InfoPane.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,6 +48,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -99,16 +121,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opt.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/opt.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
       <file leaf-file-name="show.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/show.fxml">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,12 +154,10 @@
       <file leaf-file-name="Controller_main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="374">
               <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="method#initialize#0;class#Controller_main#0" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -165,8 +175,17 @@
       <file leaf-file-name="Controller_show.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="391">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScanDir.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/test_common/ScanDir.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,13 +193,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller_opt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller_opt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_opt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+            <state relative-caret-position="340">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <element signature="method#pathBtnAction#0;class#Controller_opt#0" />
+                <element signature="method#infoBtnAction#0;class#Controller_opt#0" />
+                <element signature="method#menuBtnAction#0;class#Controller_opt#0" />
               </folding>
             </state>
           </provider>
@@ -213,8 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/test_ui.java" />
-        <option value="$PROJECT_DIR$/src/test/Controller_1.java" />
         <option value="$PROJECT_DIR$/src/entity/FolderItem.java" />
         <option value="$PROJECT_DIR$/src/ui/MenuPane.java" />
         <option value="$PROJECT_DIR$/src/entity/Info.java" />
@@ -256,7 +274,6 @@
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/show.fxml" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/main.fxml" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_info.java" />
-        <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/opt.fxml" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java" />
@@ -264,6 +281,9 @@
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/menu.fxml" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/info.fxml" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_opt.java" />
+        <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java" />
+        <option value="$PROJECT_DIR$/src/test/ScanDir.java" />
+        <option value="$PROJECT_DIR$/src/test/test_common/ScanDir.java" />
       </list>
     </option>
   </component>
@@ -277,11 +297,11 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -295,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,6 +339,12 @@
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +375,8 @@
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
@@ -359,9 +387,8 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,9 +404,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="S:/Program Files (x86)/Oracle/JavaFX Scene Builder 1.1/JavaFX Scene Builder 1.1.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/activation.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -387,10 +414,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaUProjects\PicManage\src\lib" />
       <recent name="D:\IdeaUProjects\PicManage\src\test\separate_ctrl" />
       <recent name="D:\IdeaUProjects\PicManage\src\multi_controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaUProjects\PicManage\src\test\test_common" />
       <recent name="D:\IdeaUProjects\PicManage\src\test\test_info" />
       <recent name="D:\IdeaUProjects\PicManage\src" />
     </key>
@@ -407,31 +436,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.ScanDir (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="DirChooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.DirChooser" />
-      <module name="PicManage" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multi_controller.Main" />
-      <module name="PicManage" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multi_controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.separate_ctrl.Main" />
@@ -457,11 +464,19 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="ScanDir (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test_common.ScanDir" />
+      <module name="PicManage" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.test_common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
-    <configuration name="test_pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_pane" />
+    <configuration name="ScanDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ScanDir" />
       <module name="PicManage" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -471,16 +486,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="test_ui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_ui" />
-      <module name="PicManage" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -497,6 +504,12 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="FaceppSDK.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/FaceppSDK.jar" />
+    </configuration>
+    <configuration name="commons-io-2.4.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/commons-io-2.4.jar" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -540,19 +553,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.test_ui" />
-      <item itemvalue="Application.test_pane" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.DirChooser" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.ScanDir" />
+      <item itemvalue="JAR Application.commons-io-2.4.jar" />
+      <item itemvalue="JAR Application.FaceppSDK.jar" />
+      <item itemvalue="Application.ScanDir (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScanDir (1)" />
+        <item itemvalue="Application.ScanDir" />
+        <item itemvalue="JAR Application.FaceppSDK.jar" />
+        <item itemvalue="JAR Application.commons-io-2.4.jar" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.DirChooser" />
-        <item itemvalue="Application.test_ui" />
-        <item itemvalue="Application.test_pane" />
       </list>
     </recent_temporary>
   </component>
@@ -585,32 +598,33 @@
       <workItem from="1531558619024" duration="528000" />
       <workItem from="1531559848609" duration="7131000" />
       <workItem from="1531618106119" duration="2883000" />
-      <workItem from="1531621232100" duration="4985000" />
+      <workItem from="1531621232100" duration="5913000" />
+      <workItem from="1531649868550" duration="4885000" />
+      <workItem from="1531655274020" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133949000" />
+    <option name="totallyTimeSpent" value="142693000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32817337" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771337" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32982087" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32972136" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.28601253" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.3705637" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.6703755" visible="true" weight="0.13059701" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.6703755" visible="true" weight="0.13326226" />
       <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
@@ -651,27 +665,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/PhotoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MetadataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/Photo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -753,7 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_ui.css">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/test_ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
@@ -767,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/PhotoInfoAnaly.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="54" column="72" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="72" />
@@ -777,14 +770,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="46" selection-start-column="2" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Controller_ui.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/Controller_ui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
@@ -798,14 +791,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_pane.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/test_pane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_ui.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/test_ui.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
@@ -848,7 +841,7 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_ui.fxml">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/test_ui.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
@@ -901,13 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="26" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,25 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DirChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,28 +921,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/opt.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1021,18 +968,6 @@
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding>
-            <element signature="method#initialize#0;class#Controller_main#0" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1040,12 +975,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/DirChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="method#initialize#0;class#Controller_main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_opt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
-            <element signature="method#pathBtnAction#0;class#Controller_opt#0" />
+            <element signature="method#infoBtnAction#0;class#Controller_opt#0" />
+            <element signature="method#menuBtnAction#0;class#Controller_opt#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/commons-io-2.6-sources.jar!/org/apache/commons/io/FilenameUtils.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1629" column="25" selection-start-line="1629" selection-start-column="25" selection-end-line="1629" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/ScanDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
