@@ -34,6 +34,7 @@ public class Controller_main {
         return infoController.info_pane;
     }
     public VBox getMenuPane(){return menuController.menu_pane;}
+//    public FlowPane getShowPane(){return }
 
     public boolean getInfoState(){
         return infoController.info_state;

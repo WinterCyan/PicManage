@@ -6,9 +6,9 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 
 public class Element extends VBox {
-    public static final int WIDTH = 90;
-    public static final int IMG_HEIGHT = 70;
-    public static final int TEXT_HEIGHT = 20;
+    private static final int WIDTH = 90;
+    private static final int IMG_HEIGHT = 70;
+    private static final int TEXT_HEIGHT = 20;
 
     private Item item;
     private ImageView thumbnail;
@@ -28,10 +28,6 @@ public class Element extends VBox {
         }
     }
 
-    public Element(){
-
-    }
-
     public ImageView getThumbnail() {
         return thumbnail;
     }
@@ -40,19 +36,20 @@ public class Element extends VBox {
         return nameText;
     }
 
+
     //    public Element(PhotoItem item){
-//        thumbnail = new ImageView();
-//        //  set the height of img and name.
-//        this.item = item;
-////        thumbnail =
-//        nameText.setText(item.getName());
 //    }
-//
+//        nameText.setText(item.getName());
+////        thumbnail =
+//        this.item = item;
+//        //  set the height of img and name.
+//        thumbnail = new ImageView();
 //    public Element(FolderItem item){
-//        thumbnail = new ImageView();
-//        //  set the height of img and name.
-//        this.item = item;
-////        thumbnail =
-//        nameText.setText(item.getName());
+//
 //    }
+//        nameText.setText(item.getName());
+////        thumbnail =
+//        this.item = item;
+//        //  set the height of img and name.
+//        thumbnail = new ImageView();
 }

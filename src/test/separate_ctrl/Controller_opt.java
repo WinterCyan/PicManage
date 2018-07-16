@@ -7,6 +7,7 @@ import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
 import java.io.File;
+import java.io.IOException;
 
 public class Controller_opt {
     private Controller_main controllerMain;
@@ -21,12 +22,12 @@ public class Controller_opt {
     }
 
     @FXML
-    public void pathBtnAction() {
+    public void pathBtnAction() throws IOException {
         DirectoryChooser chooser = new DirectoryChooser();
         File selected = chooser.showDialog(primaryStage);
         if (selected == null) path_text.setText("No path selected.");
         else {
-            Controller_show.setPath(selected.toPath());
+            controllerMain.showController.setPath(selected.toPath());
             path_text.setText("Path: "+selected.toString());
         }
         System.out.println(selected);

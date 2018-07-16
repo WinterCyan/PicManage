@@ -2,7 +2,6 @@ package entity;
 
 import java.io.File;
 import java.nio.file.Path;
-import java.util.Date;
 
 public class Photo {
     private String id;
@@ -12,7 +11,7 @@ public class Photo {
 
     private String device;
     private float size;
-    private Date time;
+    private String time;
     private String person;
     private String activity;
     private String comment;
@@ -34,7 +33,7 @@ public class Photo {
         this.size = size;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
@@ -84,7 +83,7 @@ public class Photo {
         return size;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 

@@ -28,7 +28,7 @@ public class MetadataInfo {
             for (Directory directory : metadata.getDirectories())
                 for (Tag tag:directory.getTags())
                     if (tagArray.contains(tag.getTagName()))
-                        map.put(tag.getTagName(), "\n"+tag.toString());
+                        map.put(tag.getTagName(),tag.toString());
         }catch (Exception e){
             e.printStackTrace();
         }
