@@ -41,10 +41,12 @@ public class Controller_opt {
     public void infoBtnAction() {
         if (controllerMain.getInfoState()){
             controllerMain.getInfoPane().setMaxWidth(0);
+            controllerMain.getInfoPane().setMinWidth(0);
             controllerMain.setInfoState(false);
         }
         else {
             controllerMain.getInfoPane().setMaxWidth(230);
+            controllerMain.getInfoPane().setMinWidth(230);
             controllerMain.setInfoState(true);
         }
     }
@@ -53,9 +55,11 @@ public class Controller_opt {
     public void menuBtnAction(){
         if (controllerMain.getMenuState()){
             controllerMain.getMenuPane().setMaxWidth(0);
+            controllerMain.getMenuPane().setMinWidth(0);
             controllerMain.setMenuState(false);
         }
         else {
+            controllerMain.getMenuPane().setMaxWidth(150);
             controllerMain.getMenuPane().setMaxWidth(150);
             controllerMain.setMenuState(true);
         }
