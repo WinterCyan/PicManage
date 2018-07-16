@@ -31,7 +31,7 @@ public class Controller_show {
     @FXML
     FlowPane show_pane;
     @FXML
-//    Controller_element elementController;
+    Controller_element elementController;
 
     void injectMainController(Controller_main controllerMain){
         this.controllerMain = controllerMain;
