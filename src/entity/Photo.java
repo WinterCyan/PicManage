@@ -1,6 +1,5 @@
 package entity;
 
-import java.io.File;
 import java.nio.file.Path;
 
 public class Photo {
@@ -10,7 +9,7 @@ public class Photo {
     private Path dir;
 
     private String device;
-    private float size;
+    private int size;
     private String time;
     private String person;
     private String activity;
@@ -29,7 +28,7 @@ public class Photo {
         this.device = device;
     }
 
-    public void setSize(float size) {
+    public void setSize(int size) {
         this.size = size;
     }
 
@@ -79,7 +78,7 @@ public class Photo {
         return device;
     }
 
-    public float getSize() {
+    public int getSize() {
         return size;
     }
 
@@ -105,9 +104,5 @@ public class Photo {
 
     public boolean isBin() {
         return bin;
-    }
-
-    public Photo(File file){
-        this.dir = file.toPath();
     }
 }

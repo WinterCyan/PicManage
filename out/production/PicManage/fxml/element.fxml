@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="element_box" maxHeight="140.0" maxWidth="120.0" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" styleClass="element_box" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller_element">
+    <ImageView fx:id="image" fitHeight="140.0" fitWidth="120.0" mouseTransparent="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+      <VBox.margin>
+         <Insets left="5.0" right="5.0" top="10.0" />
+      </VBox.margin>
+    </ImageView>
+   <CheckBox fx:id="name" mnemonicParsing="false" onAction="#onCheckAction" text="name">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </CheckBox>
+</VBox>

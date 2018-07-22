@@ -22,19 +22,13 @@ package test.test_common;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.ImageProcessingException;
-import com.drew.imaging.jpeg.JpegMetadataReader;
-import com.drew.imaging.jpeg.JpegProcessingException;
-import com.drew.imaging.jpeg.JpegSegmentMetadataReader;
 import com.drew.metadata.Directory;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.Tag;
-import com.drew.metadata.exif.ExifReader;
-import com.drew.metadata.iptc.IptcReader;
 import entity.Info;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.HashMap;
 
 /**
@@ -52,7 +46,7 @@ public class PhotoInfoAnaly
     static String directoryString;
     public static void main(String[] args)
     {
-        File file = new File("D:/Nexus/Camera/MVIMG_20180302_195309.jpg");
+        File file = new File("D:\\Pictures\\New Doc 2018-06-25\\Image 2.jpg");
 
         // There are multiple ways to get a Metadata object for a file
 

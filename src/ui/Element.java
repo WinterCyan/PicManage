@@ -35,21 +35,4 @@ public class Element extends VBox {
     public TextArea getNameText() {
         return nameText;
     }
-
-
-    //    public Element(PhotoItem item){
-//    }
-//        nameText.setText(item.getName());
-////        thumbnail =
-//        this.item = item;
-//        //  set the height of img and name.
-//        thumbnail = new ImageView();
-//    public Element(FolderItem item){
-//
-//    }
-//        nameText.setText(item.getName());
-////        thumbnail =
-//        this.item = item;
-//        //  set the height of img and name.
-//        thumbnail = new ImageView();
 }

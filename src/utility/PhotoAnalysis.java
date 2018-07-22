@@ -8,6 +8,4 @@ public class PhotoAnalysis {
     public static PhotoList photos = new PhotoList();
     public Path path;
 
-
-
 }
