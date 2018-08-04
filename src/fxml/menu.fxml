@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
 <VBox fx:id="menu_pane" maxWidth="0.0" minWidth="0.0" styleClass="menu_box" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller_menu">
     <children>
-        <Label id="menu_label_all" fx:id="menu_all" onMouseClicked="#refreshListAll" styleClass="menu_label" text="All" />
-        <Label id="menu_label_device" fx:id="menu_device" onMouseClicked="#refreshListDevice" styleClass="menu_label" text="Device" />
-        <Label id="menu_label_person" fx:id="menu_person" onMouseClicked="#refreshListPerson" styleClass="menu_label" text="Person" />
-        <Label id="menu_label_activity" fx:id="menu_activity" onMouseClicked="#refreshListActivity" styleClass="menu_label" text="Activity" />
-        <Label id="menu_label_cate" fx:id="menu_category" onMouseClicked="#refreshListCate" styleClass="menu_label" text="Cate" />
-        <Label id="menu_label_bin" fx:id="menu_bin" onMouseClicked="#refreshListBin" styleClass="menu_label" text="Bin" />
+        <Label fx:id="menu_all" onMouseClicked="#refreshListAll" styleClass="menu_label" text="All" />
+        <Label fx:id="menu_device" onMouseClicked="#refreshListDevice" styleClass="menu_label" text="Device" />
+        <Label fx:id="menu_person" onMouseClicked="#refreshListPerson" styleClass="menu_label" text="Person" />
+        <Label fx:id="menu_activity" onMouseClicked="#refreshListActivity" styleClass="menu_label" text="Activity" />
+        <Label fx:id="menu_category" onMouseClicked="#refreshListCate" styleClass="menu_label" text="Cate" />
+        <Label fx:id="menu_bin" onMouseClicked="#refreshListBin" styleClass="menu_label" text="Bin" />
     </children>
-    <padding>
-        <Insets left="10.0" />
-    </padding>
 </VBox>

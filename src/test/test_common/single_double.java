@@ -1,20 +1,20 @@
 package test.test_common;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import javafx.application.*;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class single_double extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage rimaryStage) throws Exception {
 
         Button bt1 = new Button("bt1");
         Button bt2 = new Button("bt2");
@@ -28,8 +28,8 @@ public class single_double extends Application {
         Pane pane = new HBox();
         pane.getChildren().addAll(bt1, bt2);
         Scene scene = new Scene(pane, 300, 400);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        rimaryStage.setScene(scene);
+        rimaryStage.show();
     }
 
     public static void main(String[] args) {

@@ -3,6 +3,7 @@ package controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
@@ -15,6 +16,7 @@ public class Controller_opt {
     @FXML Label path_text;
     @FXML Button info_btn;
     @FXML Button menu_btn;
+    @FXML ProgressBar progress_bar;
 
     void injectMainController(Controller_main controllerMain){
         this.controllerMain = controllerMain;
@@ -28,7 +30,6 @@ public class Controller_opt {
         else {
             controllerMain.showController.show_pane.getChildren().clear();
             controllerMain.showController.setPath(selected.toPath());
-            path_text.setText("Path: "+selected.toString());
         }
     }
 

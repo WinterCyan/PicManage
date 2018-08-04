@@ -1,18 +1,15 @@
 package sample;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.control.ProgressBar;
 import javafx.stage.Stage;
 
 public class Controller {
     public Stage stage;
     public Scene scene;
 
-    @FXML
-    Button button;
-
+    @FXML ProgressBar show_progress;
     public void setStage(Stage stage) {
         this.stage = stage;
     }
@@ -21,9 +18,4 @@ public class Controller {
         this.scene = scene;
     }
 
-    @FXML
-    private void buttonAction(ActionEvent event){
-        System.out.print("Button!");
-        button.setText("Clicked!");
-    }
 }

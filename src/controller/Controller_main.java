@@ -1,5 +1,6 @@
 package controller;
 
+import entity.Folder;
 import entity.PhotoList;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
@@ -7,11 +8,13 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.nio.file.Path;
+import java.util.ArrayList;
 
 public class Controller_main {
     public Stage stage;
     public Scene scene;
     public static PhotoList photoList = new PhotoList();
+    public static ArrayList<Folder> folderList = new ArrayList<>();
     public static Path path;
 
     @FXML Controller_info infoController;

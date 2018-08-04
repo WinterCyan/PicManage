@@ -13,6 +13,12 @@
     -fx-font-size: 24;
     -fx-padding: 15 0 10 15;
 }
+.menu_label:hover{
+    -fx-background-color: #5DADE2;
+}
+.menu_label:pressed{
+    -fx-background-color: #21618C;
+}
 .info_text{
     -fx-pref-height: 200;
     -fx-background-color: #D0ECE7;
@@ -23,4 +29,7 @@
 }
 .viewer_pane{
     -fx-background-color: #D6DBDF;
+}
+.show_progress{
+    -fx-alignment: center;
 }

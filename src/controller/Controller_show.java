@@ -2,9 +2,14 @@ package controller;
 
 import db.DBInit;
 import db.PhotoTable;
+import entity.Folder;
 import entity.Photo;
+import javafx.application.Platform;
+import javafx.concurrent.Service;
+import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.image.Image;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.VBox;
@@ -19,37 +24,71 @@ import java.util.HashMap;
 
 public class Controller_show {
     private Controller_main controllerMain;
-    private static ArrayList<String> typeList = new ArrayList<>(){{
-        add("jpeg");
-        add("jpg");
-        add("png");
-    }};
+    private static ArrayList<Controller_element> selectedList = new ArrayList<>();
+    private static Controller_element selectedFolder = null;
 
     @FXML
     FlowPane show_pane;
     @FXML
+    ProgressBar show_progress;
+    @FXML
     Controller_element elementController;
+
+    public ArrayList<Controller_element> getSelectedList() {
+        return selectedList;
+    }
+
+    public void setSelectedList(ArrayList<Controller_element> selectedList) {
+        Controller_show.selectedList = selectedList;
+    }
+
+    public static Controller_element getSelectedFolder() {
+        return selectedFolder;
+    }
+
+    public static void setSelectedFolder(Controller_element selectedFolder) {
+        Controller_show.selectedFolder = selectedFolder;
+    }
 
     void injectMainController(Controller_main controllerMain){
         this.controllerMain = controllerMain;
     }
 
-    public void setPath(Path path) throws Exception {
-        controllerMain.path = path;
-        refreshDB();
+    public void setPath(Path selectedPath) throws Exception {
+        controllerMain.path = selectedPath;
+        refreshDB(selectedPath);
     }
 
-    public void refreshDB() throws Exception{
+    public void refreshDB(Path selectedPath) throws Exception{
         DBInit.DBInit();
         ArrayList<Path> paths = PathAnalysis.analysis(controllerMain.path);
-        for (Path path:paths){
-            File file = new File(path.toString());
-            HashMap<String, String> map = MetadataInfo.getMap(file.toPath());
-            String model = null;
-            if (map.get("Model")!=null) model = map.get("Model").substring(20);
-            PhotoTable.addPhoto(file.getName(),file.getPath(),model,(int)file.length(),
-                    StringToTimestamp.getOriginTime(file),StringToTimestamp.getModifiedTime(file));
-        }
+        Service service = new Service() {
+            @Override
+            protected Task createTask() {
+                return new Task() {
+                    @Override
+                    protected Object call() throws Exception {
+                        controllerMain.optController.progress_bar.setVisible(true);
+                        int progress = 0;
+                        for (Path path:paths) {
+                            File file = new File(path.toString());
+                            HashMap<String, String> map = MetadataInfo.getMap(file.toPath());
+                            String model = null;
+                            if (map.get("Model") != null) model = map.get("Model").substring(20);
+                            PhotoTable.addPhoto(file.getName(), file.getPath(), model, (int) file.length(),
+                                    StringToTimestamp.getOriginTime(file), StringToTimestamp.getModifiedTime(file));
+                            progress++;
+                            updateProgress(progress, paths.size());
+                        }
+                        controllerMain.optController.progress_bar.setVisible(false);
+                        Platform.runLater(() -> controllerMain.optController.path_text.setText(selectedPath.toString()));
+                        return null;
+                    }
+                };
+            }
+        };
+        controllerMain.optController.progress_bar.progressProperty().bind(service.progressProperty());
+        service.start();
     }
 
 
@@ -60,8 +99,26 @@ public class Controller_show {
             VBox element = loader.load();
             Controller_element controllerElement = loader.getController();
             controllerElement.setName(photo.getName());
+            controllerElement.setType(Controller_element.photoType);
             Image thumbnail = new Image(photo.getDir().toUri().toString(), 120, 140, false, false);
             controllerElement.setImage(thumbnail);
+            controllerElement.setShowController(this);
+            show_pane.getChildren().add(element);
+        }
+    }
+
+    public void refreshViewerFolder() throws Exception{
+        show_pane.getChildren().clear();
+        for (Folder folder : controllerMain.folderList) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
+            VBox element = loader.load();
+            Controller_element controllerElement = loader.getController();
+            controllerElement.setName(folder.getName());
+            controllerElement.setType(Controller_element.folderType);
+            controllerElement.name.setMouseTransparent(true);
+            String imagePath = "/pic/folder_icon.png";
+            Image image = new Image(imagePath);
+            controllerElement.setImage(image);
             show_pane.getChildren().add(element);
         }
     }
