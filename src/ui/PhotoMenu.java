@@ -1,17 +1,25 @@
 package ui;
 
+import dialog.activity.Controller;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.MenuItem;
 
 public class PhotoMenu extends ContextMenu {
-    private static MenuItem item1 = new MenuItem("Item 1");
-    private static MenuItem item2 = new MenuItem("Item 2");
-    private static MenuItem item3 = new MenuItem("Item 3");
+    private static MenuItem activity;
+    private static MenuItem category;
 
     public PhotoMenu(){
-        this.getItems().addAll(item1,item2,item3);
-        item1.setOnAction(event -> System.out.println("Item 1 clicked."));
-        item2.setOnAction(event -> System.out.println("Item 2 clicked."));
-        item3.setOnAction(event -> System.out.println("Item 3 clicked."));
+        activity = new MenuItem("set activity");
+        category = new MenuItem("set category");
+
+        activity.setOnAction(event -> {
+            Controller.showDialog();
+        });
+
+        category.setOnAction(event -> {
+
+        });
+
+        this.getItems().addAll(activity, category);
     }
 }

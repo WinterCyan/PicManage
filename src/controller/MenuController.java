@@ -14,8 +14,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class Controller_menu {
-    private static Controller_main controllerMain;
+public class MenuController {
+    private static MainController controllerMain;
     public boolean menu_state = false;
 
     @FXML
@@ -33,7 +33,7 @@ public class Controller_menu {
     @FXML
     Label menu_bin;
 
-    public void injectMainController(Controller_main controllerMain){
+    public void injectMainController(MainController controllerMain){
         this.controllerMain = controllerMain;
     }
 

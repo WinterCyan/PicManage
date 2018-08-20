@@ -10,17 +10,21 @@ import javafx.stage.Stage;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
-public class Controller_main {
+public class MainController {
     public Stage stage;
     public Scene scene;
     public static PhotoList photoList = new PhotoList();
     public static ArrayList<Folder> folderList = new ArrayList<>();
     public static Path path;
 
-    @FXML Controller_info infoController;
-    @FXML Controller_show showController;
-    @FXML Controller_menu menuController;
-    @FXML Controller_opt optController;
+    @FXML
+    InfoController infoController;
+    @FXML
+    ShowController showController;
+    @FXML
+    MenuController menuController;
+    @FXML
+    OptController optController;
 
     public void setStage(Stage stage){
         this.stage = stage;

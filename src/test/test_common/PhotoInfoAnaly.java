@@ -1,4 +1,3 @@
-package test.test_common;
 /*
  * Copyright 2002-2017 Drew Noakes
  *
@@ -19,17 +18,22 @@ package test.test_common;
  *    https://drewnoakes.com/code/exif/
  *    https://github.com/drewnoakes/metadata-extractor
  */
+package test.test_common;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.ImageProcessingException;
+import com.drew.imaging.jpeg.JpegMetadataReader;
+import com.drew.imaging.jpeg.JpegProcessingException;
+import com.drew.imaging.jpeg.JpegSegmentMetadataReader;
 import com.drew.metadata.Directory;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.Tag;
-import entity.Info;
+import com.drew.metadata.exif.ExifReader;
+import com.drew.metadata.iptc.IptcReader;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.Arrays;
 
 /**
  * Showcases the most popular ways of using the metadata-extractor library.
@@ -40,13 +44,9 @@ import java.util.HashMap;
  */
 public class PhotoInfoAnaly
 {
-    private static Info info;
-    private static HashMap<String, String> map;
-    static String tagString;
-    static String directoryString;
     public static void main(String[] args)
     {
-        File file = new File("D:\\Pictures\\New Doc 2018-06-25\\Image 2.jpg");
+        File file = new File("/Users/wintercyan/Pictures/downloads/Python3/python5.jpg");
 
         // There are multiple ways to get a Metadata object for a file
 
@@ -76,17 +76,17 @@ public class PhotoInfoAnaly
         //
         // Using the specific reader offers a very, very slight performance improvement.
         //
-//        try {
-//            Metadata metadata = JpegMetadataReader.readMetadata(file);
-//
-//            print(metadata, "Using JpegMetadataReader");
-//        } catch (JpegProcessingException e) {
-//            print(e);
-//        } catch (IOException e) {
-//            print(e);
-//        }
-//
+        try {
+            Metadata metadata = JpegMetadataReader.readMetadata(file);
 
+            print(metadata, "Using JpegMetadataReader");
+        } catch (JpegProcessingException e) {
+            print(e);
+        } catch (IOException e) {
+            print(e);
+        }
+
+        //
         // APPROACH 3: SPECIFIC METADATA TYPE
         //
         // If you only wish to read a subset of the supported metadata types, you can do this by
@@ -94,18 +94,18 @@ public class PhotoInfoAnaly
         //
         // This currently only applies to JPEG file processing.
         //
-//        try {
+        try {
             // We are only interested in handling
-//            Iterable<JpegSegmentMetadataReader> readers = Arrays.asList(new ExifReader(), new IptcReader());
-//
-//            Metadata metadata = JpegMetadataReader.readMetadata(file, readers);
-//
-//            print(metadata, "Using JpegMetadataReader for Exif and IPTC only");
-//        } catch (JpegProcessingException e) {
-//            print(e);
-//        } catch (IOException e) {
-//            print(e);
-//        }
+            Iterable<JpegSegmentMetadataReader> readers = Arrays.asList(new ExifReader(), new IptcReader());
+
+            Metadata metadata = JpegMetadataReader.readMetadata(file, readers);
+
+            print(metadata, "Using JpegMetadataReader for Exif and IPTC only");
+        } catch (JpegProcessingException e) {
+            print(e);
+        } catch (IOException e) {
+            print(e);
+        }
     }
 
     /**
@@ -113,12 +113,12 @@ public class PhotoInfoAnaly
      */
     private static void print(Metadata metadata, String method)
     {
-//        System.out.println();
-//        System.out.println("-------------------------------------------------");
-//        System.out.print(' ');
-//        System.out.print(method);
-//        System.out.println("-------------------------------------------------");
-//        System.out.println();
+        System.out.println();
+        System.out.println("-------------------------------------------------");
+        System.out.print(' ');
+        System.out.print(method);
+        System.out.println("-------------------------------------------------");
+        System.out.println();
 
         //
         // A Metadata object contains multiple Directory objects
@@ -128,26 +128,21 @@ public class PhotoInfoAnaly
             //
             // Each Directory stores values in Tag objects
             //
-            System.out.println(directory.getName());
             for (Tag tag : directory.getTags()) {
                 System.out.println(tag);
-//                tagString = tag.toString();
-//                directoryString = directory.toString();
             }
 
             //
             // Each Directory may also contain error messages
             //
             for (String error : directory.getErrors()) {
-//                System.err.println("ERROR: " + error);
+                System.err.println("ERROR: " + error);
             }
         }
-
-//        map.put(tagString, directoryString);
     }
 
     private static void print(Exception exception)
     {
-//        System.err.println("EXCEPTION: " + exception);
+        System.err.println("EXCEPTION: " + exception);
     }
 }

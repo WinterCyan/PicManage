@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox fillHeight="false" maxHeight="47.0" prefWidth="1005.0" styleClass="opt_box" stylesheets="@test_ui.css" VBox.vgrow="NEVER" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller_opt">
+<HBox fillHeight="false" maxHeight="47.0" prefWidth="1005.0" styleClass="opt_box" stylesheets="@test_ui.css" VBox.vgrow="NEVER" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OptController">
     <children>
         <FlowPane alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
             <children>

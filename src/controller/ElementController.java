@@ -12,7 +12,7 @@ import javafx.scene.layout.VBox;
 import ui.FolderMenu;
 import ui.PhotoMenu;
 
-public class Controller_element {
+public class ElementController {
     @FXML
     ImageView image;
     @FXML
@@ -21,7 +21,7 @@ public class Controller_element {
     VBox element_box;
 
     @FXML
-    Controller_show controllerShow;
+    ShowController controllerShow;
 
     static final String photoType = "photo";
     static final String folderType = "folder";
@@ -31,7 +31,7 @@ public class Controller_element {
     }
 
     public static void setType(String type) {
-        Controller_element.type = type;
+        ElementController.type = type;
     }
 
     private static String type = null;
@@ -46,7 +46,7 @@ public class Controller_element {
             case photoType:
                 if (mouseEvent.getButton() == MouseButton.PRIMARY) {
                     if (!controllerShow.getSelectedList().isEmpty())
-                        for (Controller_element controller : controllerShow.getSelectedList()) {
+                        for (ElementController controller : controllerShow.getSelectedList()) {
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
                         }
@@ -128,7 +128,7 @@ public class Controller_element {
                 } else {
                     if (!name.isSelected()) {
                         System.out.println(controllerShow.getSelectedList().size());
-                        for (Controller_element controller:controllerShow.getSelectedList()){
+                        for (ElementController controller:controllerShow.getSelectedList()){
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
                         }
@@ -150,7 +150,7 @@ public class Controller_element {
         }
     }
 
-    public void setShowController(Controller_show controller_show) {
-        this.controllerShow = controller_show;
+    public void setShowController(ShowController showController_) {
+        this.controllerShow = showController_;
     }
 }

@@ -22,35 +22,35 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Controller_show {
-    private Controller_main controllerMain;
-    private static ArrayList<Controller_element> selectedList = new ArrayList<>();
-    private static Controller_element selectedFolder = null;
+public class ShowController {
+    private MainController controllerMain;
+    private static ArrayList<ElementController> selectedList = new ArrayList<>();
+    private static ElementController selectedFolder = null;
 
     @FXML
     FlowPane show_pane;
     @FXML
     ProgressBar show_progress;
     @FXML
-    Controller_element elementController;
+    ElementController elementController;
 
-    public ArrayList<Controller_element> getSelectedList() {
+    public ArrayList<ElementController> getSelectedList() {
         return selectedList;
     }
 
-    public void setSelectedList(ArrayList<Controller_element> selectedList) {
-        Controller_show.selectedList = selectedList;
+    public void setSelectedList(ArrayList<ElementController> selectedList) {
+        ShowController.selectedList = selectedList;
     }
 
-    public static Controller_element getSelectedFolder() {
+    public static ElementController getSelectedFolder() {
         return selectedFolder;
     }
 
-    public static void setSelectedFolder(Controller_element selectedFolder) {
-        Controller_show.selectedFolder = selectedFolder;
+    public static void setSelectedFolder(ElementController selectedFolder) {
+        ShowController.selectedFolder = selectedFolder;
     }
 
-    void injectMainController(Controller_main controllerMain){
+    void injectMainController(MainController controllerMain){
         this.controllerMain = controllerMain;
     }
 
@@ -97,9 +97,9 @@ public class Controller_show {
         for (Photo photo : controllerMain.photoList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
             VBox element = loader.load();
-            Controller_element controllerElement = loader.getController();
+            ElementController controllerElement = loader.getController();
             controllerElement.setName(photo.getName());
-            controllerElement.setType(Controller_element.photoType);
+            controllerElement.setType(ElementController.photoType);
             Image thumbnail = new Image(photo.getDir().toUri().toString(), 120, 140, false, false);
             controllerElement.setImage(thumbnail);
             controllerElement.setShowController(this);
@@ -112,9 +112,9 @@ public class Controller_show {
         for (Folder folder : controllerMain.folderList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
             VBox element = loader.load();
-            Controller_element controllerElement = loader.getController();
+            ElementController controllerElement = loader.getController();
             controllerElement.setName(folder.getName());
-            controllerElement.setType(Controller_element.folderType);
+            controllerElement.setType(ElementController.folderType);
             controllerElement.name.setMouseTransparent(true);
             String imagePath = "/pic/folder_icon.png";
             Image image = new Image(imagePath);

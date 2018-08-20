@@ -9,8 +9,8 @@ import javafx.stage.Stage;
 
 import java.io.File;
 
-public class Controller_opt {
-    private Controller_main controllerMain;
+public class OptController {
+    private MainController controllerMain;
     private Stage primaryStage;
 
     @FXML Label path_text;
@@ -18,7 +18,7 @@ public class Controller_opt {
     @FXML Button menu_btn;
     @FXML ProgressBar progress_bar;
 
-    void injectMainController(Controller_main controllerMain){
+    void injectMainController(MainController controllerMain){
         this.controllerMain = controllerMain;
     }
 
