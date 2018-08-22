@@ -3,7 +3,7 @@ package entity;
 import java.nio.file.Path;
 
 public class Photo {
-    private String id;
+    private int id;
     private String name;
 
     private Path dir;
@@ -16,7 +16,7 @@ public class Photo {
     private String comment;
     private String category;
     private boolean bin;
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -56,7 +56,7 @@ public class Photo {
         this.bin = bin;
     }
 
-    public String getId() {
+    public int getId() {
 
         return id;
     }

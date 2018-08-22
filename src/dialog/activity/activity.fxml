@@ -30,13 +30,11 @@
             <Insets top="10.0" />
          </VBox.margin></HBox>
       <HBox alignment="CENTER_LEFT">
-         <children>
-            <Label text="Date: " />
-            <DatePicker fx:id="datePicker" nodeOrientation="LEFT_TO_RIGHT" HBox.hgrow="ALWAYS" />
-         </children>
          <VBox.margin>
-            <Insets top="10.0" />
+            <Insets top="10.0"/>
          </VBox.margin>
+         <Label text="Date: "/>
+         <DatePicker fx:id="datePicker" nodeOrientation="LEFT_TO_RIGHT" HBox.hgrow="ALWAYS"/>
       </HBox>
       <HBox alignment="CENTER_LEFT">
          <children>
@@ -58,7 +56,7 @@
       </Label>
       <HBox>
          <children>
-            <TextArea prefHeight="100.0" prefWidth="230.0" />
+            <TextArea fx:id="descriptionText" prefHeight="100.0" prefWidth="230.0" wrapText="true" HBox.hgrow="ALWAYS" />
          </children>
          <VBox.margin>
             <Insets />

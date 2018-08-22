@@ -1,5 +1,7 @@
 package controller;
 
+import entity.Folder;
+import entity.Photo;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
@@ -39,6 +41,8 @@ public class ElementController {
     private static final PhotoMenu photoMenu = new PhotoMenu();
     private static final FolderMenu folderMenu= new FolderMenu();
     private boolean folderSelected = false;
+    private static Photo photo;
+    private static Folder folder;
 
     @FXML
     public void onMouseClicked(MouseEvent mouseEvent) {
@@ -152,5 +156,21 @@ public class ElementController {
 
     public void setShowController(ShowController showController_) {
         this.controllerShow = showController_;
+    }
+
+    public void setPhoto(Photo photo){
+        this.photo = photo;
+    }
+
+    public Photo getPhoto() {
+        return photo;
+    }
+
+    public Folder getFolder() {
+        return folder;
+    }
+
+    public void setFolder(Folder folder){
+        this.folder = folder;
     }
 }

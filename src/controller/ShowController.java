@@ -34,7 +34,7 @@ public class ShowController {
     @FXML
     ElementController elementController;
 
-    public ArrayList<ElementController> getSelectedList() {
+    public static ArrayList<ElementController> getSelectedList() {
         return selectedList;
     }
 
@@ -56,10 +56,10 @@ public class ShowController {
 
     public void setPath(Path selectedPath) throws Exception {
         controllerMain.path = selectedPath;
-        refreshDB(selectedPath);
+        resetDB(selectedPath);
     }
 
-    public void refreshDB(Path selectedPath) throws Exception{
+    public void resetDB(Path selectedPath) throws Exception{
         DBInit.DBInit();
         ArrayList<Path> paths = PathAnalysis.analysis(controllerMain.path);
         Service service = new Service() {
@@ -97,12 +97,13 @@ public class ShowController {
         for (Photo photo : controllerMain.photoList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
             VBox element = loader.load();
-            ElementController controllerElement = loader.getController();
-            controllerElement.setName(photo.getName());
-            controllerElement.setType(ElementController.photoType);
+            ElementController elementController = loader.getController();
+            elementController.setPhoto(photo);
+            elementController.setName(photo.getName());
+            elementController.setType(ElementController.photoType);
             Image thumbnail = new Image(photo.getDir().toUri().toString(), 120, 140, false, false);
-            controllerElement.setImage(thumbnail);
-            controllerElement.setShowController(this);
+            elementController.setImage(thumbnail);
+            elementController.setShowController(this);
             show_pane.getChildren().add(element);
         }
     }
