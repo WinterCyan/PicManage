@@ -104,7 +104,6 @@ public class ElementController {
         this.photoMenu.hide();
         if (name.isSelected()){
             controllerShow.getSelectedList().add(this);
-            System.out.println("added.");
             element_box.setStyle("-fx-background-color: #85C1E9;");
         }
         else{

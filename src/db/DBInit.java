@@ -18,7 +18,7 @@ public class DBInit {
         String sql4 = String.format("create table if not exists person(id int not null primary key auto_increment,faceinfo " +
                 "varchar(255),name varchar(20));");
         String sql5 = String.format("create table if not exists activity(id int not null primary key auto_increment,name " +
-                "varchar(50) not null,time datetime not null,location varchar(50),description varchar(255));");
+                "varchar(50) not null,time date not null,location varchar(50),description varchar(255) not null);");
         String sql6 = String.format("create table if not exists category(id int not null primary key auto_increment,name " +
                 "varchar(10) not null);");
         String sql7 = String.format("create table if not exists photo(id int not null primary key auto_increment,name " +

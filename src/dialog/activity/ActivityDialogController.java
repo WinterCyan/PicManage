@@ -64,12 +64,12 @@ public class ActivityDialogController {
                 int currentId = 0;
                 try {
                     Class.forName(DBInfo.JDBC_DRIVER).getConstructor().newInstance();
-                    Connection connection = DriverManager.getConnection(DBInfo.DB_URL);
+                    Connection connection = DriverManager.getConnection(DBInfo.DB_DB_URL);
                     Statement addActivity = connection.createStatement();
                     Statement updatePhoto = connection.createStatement();
-                    if (!location.isEmpty()) addActivity.execute(String.format("insert into activity(name, time, location, description)) " +
+                    if (!location.isEmpty()) addActivity.execute(String.format("insert into activity(name, time, location, description) " +
                             "values('"+name+"','"+date+"','"+location+"','"+description+"');"));
-                    else addActivity.execute(String.format("insert into activity(name, time, description)) " +
+                    else addActivity.execute(String.format("insert into activity(name, time, description) " +
                             "values('"+name+"','"+date+"','"+description+"');"));
                     Statement getIncrement = connection.createStatement();
                     ResultSet set = getIncrement.executeQuery("select auto_increment from information_schema.tables where table_schema='picmanage' and table_name='activity';");
@@ -77,7 +77,8 @@ public class ActivityDialogController {
                     for (ElementController controller:photoList){
                         Photo photo = controller.getPhoto();
                         int id = photo.getId();
-                        updatePhoto.executeUpdate("update photo set activity='"+currentId+"' where id='"+id+"');");
+                        updatePhoto.executeUpdate("update photo set activity='"+currentId+"' where id='"+id+"';");
+                        System.out.println("updated.");
                     }
                 }catch (Exception e){
                     e.printStackTrace();
@@ -88,6 +89,9 @@ public class ActivityDialogController {
                     photo.setActivity(name);
                 }
             }
+        }else {
+            Alert integrityAlert = new Alert(Alert.AlertType.ERROR, "Check the activity information integrity.");
+            integrityAlert.showAndWait();
         }
     }
 

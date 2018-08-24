@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 public class ScanDir {
     public static void printPhoto(Photo photo){
-        System.out.println(photo.getSize()+"Mb\n"+photo.getName()+"\n"+photo.getDir()+"\n"
-                +photo.getDevice()+"\n"+photo.getTime());
+//        System.out.println(photo.getSize()+"Mb\n"+photo.getName()+"\n"+photo.getDir()+"\n"
+//                +photo.getDevice()+"\n"+photo.getTime());
     }
 
     public static void main(String[] args) {

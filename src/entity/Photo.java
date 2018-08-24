@@ -11,11 +11,22 @@ public class Photo {
     private String device;
     private int size;
     private String time;
+
+    private boolean bin;
+    private String modifiedTime;
     private String person;
     private String activity;
     private String comment;
     private String category;
-    private boolean bin;
+
+    public void setModifiedTime(String modifiedTime) {
+        this.modifiedTime = modifiedTime;
+    }
+
+    public String getModifiedTime() {
+        return modifiedTime;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

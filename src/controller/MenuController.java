@@ -9,10 +9,7 @@ import javafx.scene.layout.VBox;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 
 public class MenuController {
     private static MainController controllerMain;
@@ -92,12 +89,14 @@ public class MenuController {
         Statement statementOut = connection.createStatement();
         Statement statementIn = connection.createStatement();
         ResultSet set = statementOut.executeQuery(selectSQL);
-//        Statement statementCount = connection.createStatement();
-//        int setSize = statementCount.executeQuery(countSQL).getInt(1);
-//        int progress = 0;
         while (set.next()){
             String name = set.getString("name");
             Path dir = Paths.get(set.getString("dir"));
+            Timestamp time = set.getTimestamp("time");
+            Timestamp modifiedTime = set.getTimestamp("modified_time");
+            int size = set.getInt("size");
+            String comment = set.getString("comment");
+            boolean bin = set.getBoolean("bin");
             String activity = null,category = null,person = null,device = null;
             if (set.getObject("activity")!=null){
                 int activityId = set.getInt("activity");
@@ -134,6 +133,11 @@ public class MenuController {
             Photo photo = new Photo();
             photo.setName(name);
             photo.setDir(dir);
+            if (time!=null) photo.setTime(time.toString());
+            if (modifiedTime!=null) photo.setModifiedTime(modifiedTime.toString());
+            if (comment!=null) photo.setComment(comment);
+            photo.setBin(bin);
+            photo.setSize(size);
             photo.setActivity(activity);
             photo.setCategory(category);
             photo.setPerson(person);
