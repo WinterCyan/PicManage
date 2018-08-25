@@ -80,6 +80,10 @@ public class ActivityDialogController {
                         updatePhoto.executeUpdate("update photo set activity='"+currentId+"' where id='"+id+"';");
                         System.out.println("updated.");
                     }
+                    addActivity.close();
+                    updatePhoto.close();
+                    getIncrement.close();
+                    connection.close();
                 }catch (Exception e){
                     e.printStackTrace();
                 }

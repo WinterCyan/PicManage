@@ -90,6 +90,7 @@ public class MenuController {
         Statement statementIn = connection.createStatement();
         ResultSet set = statementOut.executeQuery(selectSQL);
         while (set.next()){
+            int id = set.getInt("id");
             String name = set.getString("name");
             Path dir = Paths.get(set.getString("dir"));
             Timestamp time = set.getTimestamp("time");
@@ -131,6 +132,7 @@ public class MenuController {
             } else device = null;
 
             Photo photo = new Photo();
+            photo.setId(id);
             photo.setName(name);
             photo.setDir(dir);
             if (time!=null) photo.setTime(time.toString());
@@ -140,8 +142,8 @@ public class MenuController {
             photo.setSize(size);
             photo.setActivity(activity);
             photo.setCategory(category);
-            photo.setPerson(person);
-            photo.setDevice(device);
+            photo.setPerson(person);    // null
+            photo.setDevice(device);    // "null"
             controllerMain.photoList.add(photo);
 //            progress ++;
 //            updateProgress(progress, setSize);

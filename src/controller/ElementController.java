@@ -41,19 +41,20 @@ public class ElementController {
     private static final PhotoMenu photoMenu = new PhotoMenu();
     private static final FolderMenu folderMenu= new FolderMenu();
     private boolean folderSelected = false;
-    private static Photo photo;
-    private static Folder folder;
+    private Photo photo;
+    private Folder folder;
 
     @FXML
     public void onMouseClicked(MouseEvent mouseEvent) {
         switch (getType()){
             case photoType:
                 if (mouseEvent.getButton() == MouseButton.PRIMARY) {
-                    if (!controllerShow.getSelectedList().isEmpty())
+                    if (!controllerShow.getSelectedList().isEmpty()) {
                         for (ElementController controller : controllerShow.getSelectedList()) {
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
                         }
+                    }
                     controllerShow.getSelectedList().clear();
                     controllerShow.getSelectedList().add(this);
                     name.setSelected(true);
@@ -110,6 +111,8 @@ public class ElementController {
             controllerShow.getSelectedList().remove(this);
             element_box.setStyle("-fx-background-color: #D6DBDF;");
         }
+        System.out.println(this);
+        System.out.println(photo);
     }
 
     public void setName(String name){
@@ -130,7 +133,6 @@ public class ElementController {
                     element_box.setStyle("-fx-background-color: #85C1E9;");
                 } else {
                     if (!name.isSelected()) {
-                        System.out.println(controllerShow.getSelectedList().size());
                         for (ElementController controller:controllerShow.getSelectedList()){
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
@@ -153,8 +155,8 @@ public class ElementController {
         }
     }
 
-    public void setShowController(ShowController showController_) {
-        this.controllerShow = showController_;
+    public void setShowController(ShowController showController) {
+        this.controllerShow = showController;
     }
 
     public void setPhoto(Photo photo){

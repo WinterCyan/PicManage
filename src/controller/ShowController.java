@@ -35,6 +35,9 @@ public class ShowController {
     ElementController elementController;
 
     public static ArrayList<ElementController> getSelectedList() {
+        for (ElementController controller:selectedList){
+            System.out.println(controller.getPhoto().getId());
+        }
         return selectedList;
     }
 
@@ -91,7 +94,6 @@ public class ShowController {
         service.start();
     }
 
-
     public void refreshViewer() throws Exception {
         show_pane.getChildren().clear();
         for (Photo photo : controllerMain.photoList) {
@@ -108,6 +110,7 @@ public class ShowController {
         }
     }
 
+    // vbox ---> element box has not set
     public void refreshViewerFolder() throws Exception{
         show_pane.getChildren().clear();
         for (Folder folder : controllerMain.folderList) {
