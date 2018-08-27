@@ -34,7 +34,7 @@
             <Insets top="10.0"/>
          </VBox.margin>
          <Label text="Date: "/>
-         <DatePicker fx:id="datePicker" nodeOrientation="LEFT_TO_RIGHT" HBox.hgrow="ALWAYS"/>
+         <DatePicker fx:id="datePicker" editable="false" nodeOrientation="LEFT_TO_RIGHT" HBox.hgrow="ALWAYS"/>
       </HBox>
       <HBox alignment="CENTER_LEFT">
          <children>

@@ -53,6 +53,7 @@ public class MenuController {
         enableLabel();
         menu_device.setDisable(true);
         hideMenu();
+        controllerMain.folderList.clear();
         setDeviceList();
         controllerMain.showController.refreshViewerFolder();
     }
