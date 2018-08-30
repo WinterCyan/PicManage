@@ -5,11 +5,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="k">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog/activity/activity.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialog/activity/activity.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/show.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/show.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PicManage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/InfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/OptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/PaneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/DBInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/DBInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/PhotoTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/ActivityDialogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/activity.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Folder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/FolderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Photo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/PhotoItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/PhotoList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/ViewList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/element.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/info.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/opt.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/show.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/test_ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/FaceppSDK.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/metadata-extractor-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/xmpcore-5.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/pic/folder_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DBTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DirChooser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DirChooser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/PhotoInfoAnaly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/ScanDir$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/ScanDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double$A$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/InfoPane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/PhotoMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/MetadataInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/MetadataInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PathAnalysis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PathAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PhotoAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/StringToTimestamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ElementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/OptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/PaneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ShowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DBInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/DBInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/PhotoTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialog/activity/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialog/activity/activity.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Folder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/FolderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Photo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/PhotoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/PhotoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ViewList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/element.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/info.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/opt.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/show.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/test_ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/FaceppSDK.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/metadata-extractor-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/xmpcore-5.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pic/folder_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_common/DBTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_common/DirChooser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_common/ScanDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_common/single_double.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/FolderMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/InfoPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/PhotoMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/MetadataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/PathAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/PhotoAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/StringToTimestamp.java" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,12 +227,12 @@
     <session id="-154026421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -159,18 +269,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+            <state relative-caret-position="714">
+              <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
               <folding>
                 <element signature="method#hideMenu#0;class#MenuController#0" />
+                <element signature="method#refreshListAll#0;class#MenuController#0" />
+                <element signature="method#refreshListDevice#0;class#MenuController#0" />
                 <element signature="method#refreshListPerson#0;class#MenuController#0" />
                 <element signature="method#refreshListActivity#0;class#MenuController#0" />
                 <element signature="method#refreshListCate#0;class#MenuController#0" />
                 <element signature="method#refreshListBin#0;class#MenuController#0" />
                 <element signature="method#setPhotoList#0;class#MenuController#0" />
-                <element signature="e#5331#5357#0" />
-                <element signature="e#5504#5547#0" />
-                <element signature="e#0#20#1" />
+                <element signature="method#setDeviceList#0;class#MenuController#0" />
                 <element signature="method#enableLabel#0;class#MenuController#0" />
               </folding>
             </state>
@@ -180,8 +290,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
+            <state relative-caret-position="1088">
+              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,24 +302,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+            <state relative-caret-position="561">
+              <caret line="113" column="54" lean-forward="true" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
+                <element signature="method#getSelectedList#0;class#ShowController#0" />
+                <element signature="method#setSelectedList#0;class#ShowController#0" />
+                <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+                <element signature="method#setPath#0;class#ShowController#0" />
+                <element signature="method#resetDB#0;class#ShowController#0" />
+                <element signature="method#refreshViewer#0;class#ShowController#0" />
+                <element signature="method#refreshViewerFolder#0;class#ShowController#0" />
               </folding>
             </state>
           </provider>
@@ -354,12 +456,6 @@
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,7 +528,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaUProjects/PicManage/src/test/ui.fxml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535364786497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535368098619" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -705,17 +801,18 @@
       <workItem from="1535079412319" duration="2128000" />
       <workItem from="1535115923217" duration="8570000" />
       <workItem from="1535168991161" duration="5362000" />
-      <workItem from="1535361340437" duration="1734000" />
+      <workItem from="1535361340437" duration="2077000" />
+      <workItem from="1535614869992" duration="294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324255000" />
+    <option name="totallyTimeSpent" value="324892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13369964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13492064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -724,7 +821,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info active="true" anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" visible="true" weight="0.27959183" />
+      <window_info anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" weight="0.27959183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33571428" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -804,18 +901,6 @@
           <line>102</line>
           <properties />
           <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ShowController.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ShowController.java</url>
-          <line>125</line>
-          <properties />
-          <option name="timeStamp" value="83" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1120,16 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1142,20 +1217,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="113" column="54" lean-forward="true" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
+          <folding>
+            <element signature="method#getSelectedList#0;class#ShowController#0" />
+            <element signature="method#setSelectedList#0;class#ShowController#0" />
+            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+            <element signature="method#setPath#0;class#ShowController#0" />
+            <element signature="method#resetDB#0;class#ShowController#0" />
+            <element signature="method#refreshViewer#0;class#ShowController#0" />
+            <element signature="method#refreshViewerFolder#0;class#ShowController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="714">
+          <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
           <folding>
             <element signature="method#hideMenu#0;class#MenuController#0" />
+            <element signature="method#refreshListAll#0;class#MenuController#0" />
+            <element signature="method#refreshListDevice#0;class#MenuController#0" />
             <element signature="method#refreshListPerson#0;class#MenuController#0" />
             <element signature="method#refreshListActivity#0;class#MenuController#0" />
             <element signature="method#refreshListCate#0;class#MenuController#0" />
             <element signature="method#refreshListBin#0;class#MenuController#0" />
             <element signature="method#setPhotoList#0;class#MenuController#0" />
-            <element signature="e#5331#5357#0" />
-            <element signature="e#5504#5547#0" />
-            <element signature="e#0#20#1" />
+            <element signature="method#setDeviceList#0;class#MenuController#0" />
             <element signature="method#enableLabel#0;class#MenuController#0" />
           </folding>
         </state>
@@ -1163,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
+        <state relative-caret-position="1088">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
