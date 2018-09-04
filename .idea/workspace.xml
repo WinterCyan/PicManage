@@ -4,122 +4,38 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/test_common/ScanDir.java" line="27" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="k">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PicManage.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/InfoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/OptController.class" beforeDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment=",">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/OptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/OptController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/PaneController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/DBInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/DBInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/db/PhotoTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/ActivityDialogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/activity.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Folder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/ActivityDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/dialog/activity/ActivityDialogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/FolderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Photo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/PhotoItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/PhotoList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/ViewList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/element.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/info.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/menu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/opt.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/show.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/test_ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/FaceppSDK.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/metadata-extractor-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/lib/xmpcore-5.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/pic/folder_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DBTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DirChooser$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DirChooser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/PhotoInfoAnaly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/ScanDir$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/ScanDir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double$A$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/single_double.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/element.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/fxml/element.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/opt.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/fxml/opt.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/InfoPane.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/PhotoMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/MetadataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/MetadataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PathAnalysis$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PathAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/PhotoAnalysis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/utility/StringToTimestamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ElementController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/InfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MainController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/OptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ElementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ElementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/OptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/PaneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ShowController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/DBInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/DBInit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/PhotoTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog/activity/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog/activity/activity.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Folder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/FolderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Photo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/PhotoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/PhotoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/ViewList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/element.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/info.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/main.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/menu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/opt.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/show.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/test_ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/FaceppSDK.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/metadata-extractor-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/xmpcore-5.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pic/folder_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_common/DBTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_common/DirChooser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_common/ScanDir.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_common/single_double.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/FolderMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/element.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/element.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/opt.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/opt.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/FolderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FolderMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/InfoPane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/PhotoMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/MetadataInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/PathAnalysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/PhotoAnalysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/StringToTimestamp.java" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,7 +143,7 @@
     <session id="-154026421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
@@ -237,26 +153,65 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="326" />
-          <entry key="java" value="10210" />
+          <entry key="fxml" value="402" />
+          <entry key="java" value="17386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10210" />
-          <entry key="XML" value="326" />
+          <entry key="JAVA" value="17386" />
+          <entry key="XML" value="402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="9" />
-          <entry key="java" value="61" />
+          <entry key="fxml" value="11" />
+          <entry key="java" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="61" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="67" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1314370823">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="fxml" value="10" />
+          <entry key="java" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="28" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fxml" value="5" />
+          <entry key="java" value="2056" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2056" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -267,31 +222,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
+            <state relative-caret-position="119">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding>
-                <element signature="method#hideMenu#0;class#MenuController#0" />
-                <element signature="method#refreshListAll#0;class#MenuController#0" />
-                <element signature="method#refreshListDevice#0;class#MenuController#0" />
-                <element signature="method#refreshListPerson#0;class#MenuController#0" />
-                <element signature="method#refreshListActivity#0;class#MenuController#0" />
-                <element signature="method#refreshListCate#0;class#MenuController#0" />
-                <element signature="method#refreshListBin#0;class#MenuController#0" />
-                <element signature="method#setPhotoList#0;class#MenuController#0" />
-                <element signature="method#setDeviceList#0;class#MenuController#0" />
-                <element signature="method#enableLabel#0;class#MenuController#0" />
+                <element signature="method#setSelectedList#0;class#ShowController#0" />
+                <element signature="method#setSelectedFolder#0;class#ShowController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+            <state relative-caret-position="1615">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -299,20 +256,66 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fxml/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+        <entry file="file://$PROJECT_DIR$/src/fxml/test_ui.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="113" column="54" lean-forward="true" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-              <folding>
-                <element signature="method#getSelectedList#0;class#ShowController#0" />
-                <element signature="method#setSelectedList#0;class#ShowController#0" />
-                <element signature="method#setSelectedFolder#0;class#ShowController#0" />
-                <element signature="method#setPath#0;class#ShowController#0" />
-                <element signature="method#resetDB#0;class#ShowController#0" />
-                <element signature="method#refreshViewer#0;class#ShowController#0" />
-                <element signature="method#refreshViewerFolder#0;class#ShowController#0" />
-              </folding>
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/opt.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/menu.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/show.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -334,8 +337,11 @@
       <find>ShowController</find>
       <find>setph</find>
       <find>sys</find>
-      <find>System.out</find>
       <find>datep</find>
+      <find>System.</find>
+      <find>System.out</find>
+      <find>syste</find>
+      <find>s</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -349,11 +355,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ui/PathAnalysis.java" />
-        <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_main.java" />
-        <option value="$PROJECT_DIR$/src/utility/PhotoAnalysis.java" />
-        <option value="$PROJECT_DIR$/src/test/separate_ctrl/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/utility/MetadataInfo.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/DBTest.java" />
         <option value="$PROJECT_DIR$/src/test/separate_ctrl/Controller_show.java" />
@@ -365,15 +366,11 @@
         <option value="$PROJECT_DIR$/src/db/DBInfo.java" />
         <option value="$PROJECT_DIR$/src/db/PhotoTable.java" />
         <option value="$PROJECT_DIR$/src/utility/StringToTimestamp.java" />
-        <option value="$PROJECT_DIR$/src/test/test_common/single_double.java" />
         <option value="$PROJECT_DIR$/src/utility/PathAnalysis.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller_main.java" />
         <option value="$PROJECT_DIR$/src/ui/ItemMenu.java" />
-        <option value="$PROJECT_DIR$/src/ui/FolderMenu.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller_element.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller_opt.java" />
-        <option value="$PROJECT_DIR$/src/fxml/opt.fxml" />
-        <option value="$PROJECT_DIR$/src/fxml/menu.fxml" />
         <option value="$PROJECT_DIR$/src/fxml/test_ui.css" />
         <option value="$PROJECT_DIR$/src/controller/Controller_show.java" />
         <option value="$PROJECT_DIR$/src/controller/Controller_menu.java" />
@@ -391,15 +388,24 @@
         <option value="$PROJECT_DIR$/src/db/DBInit.java" />
         <option value="$PROJECT_DIR$/src/entity/Photo.java" />
         <option value="$PROJECT_DIR$/src/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" />
         <option value="$PROJECT_DIR$/src/ui/Element.java" />
-        <option value="$PROJECT_DIR$/src/fxml/element.fxml" />
-        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
-        <option value="$PROJECT_DIR$/src/controller/ElementController.java" />
         <option value="$PROJECT_DIR$/src/dialog/activity/activity.fxml" />
         <option value="$PROJECT_DIR$/src/fxml/show.fxml" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/test_common/single_double.java" />
+        <option value="$PROJECT_DIR$/src/utility/ClickHandler.java" />
+        <option value="$PROJECT_DIR$/src/fxml/element.fxml" />
+        <option value="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" />
+        <option value="$PROJECT_DIR$/src/ui/FolderMenu.java" />
+        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
+        <option value="$PROJECT_DIR$/src/controller/ElementController.java" />
         <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/controller/OptController.java" />
+        <option value="$PROJECT_DIR$/src/test/test_common/DeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/fxml/opt.fxml" />
+        <option value="$PROJECT_DIR$/src/fxml/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/fxml/info.fxml" />
+        <option value="$PROJECT_DIR$/src/fxml/main.fxml" />
       </list>
     </option>
   </component>
@@ -411,8 +417,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -440,6 +448,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -456,6 +467,12 @@
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -463,13 +480,6 @@
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dialog" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
@@ -512,9 +522,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +535,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaUProjects/PicManage/src/test/ui.fxml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535368098619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535995667936" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -541,23 +548,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ui" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaUProjects\PicManage\src\lib" />
-      <recent name="D:\IdeaUProjects\PicManage\src\test\separate_ctrl" />
-      <recent name="D:\IdeaUProjects\PicManage\src\multi_controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/dialog/activity" />
       <recent name="$PROJECT_DIR$/src/sample" />
       <recent name="$PROJECT_DIR$/src/ui" />
       <recent name="D:\IdeaUProjects\PicManage\src\fxml" />
       <recent name="D:\IdeaUProjects\PicManage\src\test\test_common" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ui" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="utility" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaUProjects\PicManage\src\lib" />
+      <recent name="D:\IdeaUProjects\PicManage\src\test\separate_ctrl" />
+      <recent name="D:\IdeaUProjects\PicManage\src\multi_controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -619,6 +629,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test_common.DeleteTest" />
+      <module name="PicManage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.test_common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PicManage" />
@@ -654,8 +678,14 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PhotoInfoAnaly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_common.PhotoInfoAnaly" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="single_double" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test_common.single_double" />
       <module name="PicManage" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -664,26 +694,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScanDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test_common.ScanDir" />
-      <module name="PicManage" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -719,18 +729,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ScanDir" />
       <item itemvalue="Application.DBTest" />
       <item itemvalue="Application.DBInit" />
-      <item itemvalue="Application.PhotoInfoAnaly" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.single_double" />
+      <item itemvalue="Application.DeleteTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.DeleteTest" />
+        <item itemvalue="Application.single_double" />
         <item itemvalue="Application.DBTest" />
         <item itemvalue="Application.DBInit" />
-        <item itemvalue="Application.PhotoInfoAnaly" />
       </list>
     </recent_temporary>
   </component>
@@ -802,17 +813,23 @@
       <workItem from="1535115923217" duration="8570000" />
       <workItem from="1535168991161" duration="5362000" />
       <workItem from="1535361340437" duration="2077000" />
-      <workItem from="1535614869992" duration="294000" />
+      <workItem from="1535614869992" duration="8621000" />
+      <workItem from="1535701924204" duration="6000" />
+      <workItem from="1535710456196" duration="6857000" />
+      <workItem from="1535889872034" duration="2412000" />
+      <workItem from="1535956093024" duration="10742000" />
+      <workItem from="1536022353479" duration="198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324892000" />
+    <option name="totallyTimeSpent" value="353434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13492064" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13553114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -821,7 +838,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" weight="0.27959183" />
+      <window_info active="true" anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" visible="true" weight="0.2734694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33571428" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -858,55 +875,6 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/controller/ShowController.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="controller.name" language="JAVA" />
@@ -927,41 +895,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fxml/info_pane.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/part1.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/entity/FolderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/PhotoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pic/folder_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.graphics/javafx/scene/image/Image.java" />
-    <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/Info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -976,54 +909,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/PhotoItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/SetViewer.java" />
-    <entry file="file://$PROJECT_DIR$/src/fxml/main.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/test_common/single_double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/javafx.base/javafx/beans/property/StringPropertyBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/fxml/opt.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/menu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/test_ui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/DBInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1041,27 +929,6 @@
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/InfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/PathAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/StringToTimestamp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1076,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/PhotoAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1094,44 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/PaneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dialog/activity/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/PhotoMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/MetadataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/PhotoTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1156,109 +978,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/Element.java" />
-    <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/activity.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/show.fxml">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/single_double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/PhotoMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/FolderItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/entity/PhotoItem.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/InfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+    <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="113" column="54" lean-forward="true" selection-start-line="113" selection-start-column="54" selection-end-line="113" selection-end-column="54" />
-          <folding>
-            <element signature="method#getSelectedList#0;class#ShowController#0" />
-            <element signature="method#setSelectedList#0;class#ShowController#0" />
-            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
-            <element signature="method#setPath#0;class#ShowController#0" />
-            <element signature="method#resetDB#0;class#ShowController#0" />
-            <element signature="method#refreshViewer#0;class#ShowController#0" />
-            <element signature="method#refreshViewerFolder#0;class#ShowController#0" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
-          <folding>
-            <element signature="method#hideMenu#0;class#MenuController#0" />
-            <element signature="method#refreshListAll#0;class#MenuController#0" />
-            <element signature="method#refreshListDevice#0;class#MenuController#0" />
-            <element signature="method#refreshListPerson#0;class#MenuController#0" />
-            <element signature="method#refreshListActivity#0;class#MenuController#0" />
-            <element signature="method#refreshListCate#0;class#MenuController#0" />
-            <element signature="method#refreshListBin#0;class#MenuController#0" />
-            <element signature="method#setPhotoList#0;class#MenuController#0" />
-            <element signature="method#setDeviceList#0;class#MenuController#0" />
-            <element signature="method#enableLabel#0;class#MenuController#0" />
-          </folding>
+        <state relative-caret-position="697">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+        <state relative-caret-position="2159">
+          <caret line="183" column="26" selection-start-line="183" selection-start-column="26" selection-end-line="183" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/ClickHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dialog/activity/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/MetadataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/PhotoAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/PathAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/PhotoTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/DeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/InfoPane.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/PaneController.java" />
+    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="method#setSelectedList#0;class#ShowController#0" />
+            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/test_ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/opt.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/menu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/show.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,9 @@ public class OptController {
     public void pathBtnAction() throws Exception {
         DirectoryChooser chooser = new DirectoryChooser();
         File selected = chooser.showDialog(primaryStage);
-        if (selected == null) path_text.setText("No path selected.");
+        if (selected == null) {
+            if (path_text.getText().equals("")) path_text.setText("No path selected.");
+        }
         else {
             controllerMain.showController.show_pane.getChildren().clear();
             controllerMain.showController.setPath(selected.toPath());

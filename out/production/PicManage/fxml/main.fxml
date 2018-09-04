@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.layout.BorderPane?>
@@ -21,6 +20,6 @@
          <padding>
             <Insets top="2.0" />
          </padding>
-        </BorderPane>
+    </BorderPane>
     </children>
 </VBox>

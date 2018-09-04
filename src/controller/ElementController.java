@@ -21,10 +21,10 @@ public class ElementController {
     CheckBox name;
     @FXML
     VBox element_box;
-
     @FXML
-    ShowController controllerShow;
+    ShowController showController;
 
+    private static MainController mainController;
     static final String photoType = "photo";
     static final String folderType = "folder";
 
@@ -39,39 +39,51 @@ public class ElementController {
     private static String type = null;
 
     private static final PhotoMenu photoMenu = new PhotoMenu();
-    private static final FolderMenu folderMenu= new FolderMenu();
+    private final FolderMenu folderMenu= new FolderMenu(this);
     private boolean folderSelected = false;
     private Photo photo;
     private Folder folder;
+
+    public static void setMainController(MainController mainController) {
+        ElementController.mainController = mainController;
+    }
 
     @FXML
     public void onMouseClicked(MouseEvent mouseEvent) {
         switch (getType()){
             case photoType:
                 if (mouseEvent.getButton() == MouseButton.PRIMARY) {
-                    if (!controllerShow.getSelectedList().isEmpty()) {
-                        for (ElementController controller : controllerShow.getSelectedList()) {
+                    if (!showController.getSelectedList().isEmpty()) {
+                        for (ElementController controller : showController.getSelectedList()) {
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
                         }
                     }
-                    controllerShow.getSelectedList().clear();
-                    controllerShow.getSelectedList().add(this);
+                    showController.getSelectedList().clear();
+                    showController.getSelectedList().add(this);
                     name.setSelected(true);
                     element_box.setStyle("-fx-background-color: #85C1E9;");
-                    this.photoMenu.hide();
+                    photoMenu.hide();
                 }
                 break;
             case folderType:
                 if (mouseEvent.getButton() == MouseButton.PRIMARY) {
-                    this.folderMenu.hide();
+                    folderMenu.hide();
                     if (!folderSelected) {
-                        controllerShow.getSelectedFolder().element_box.setStyle("-fx-background-color: #D6DBDF;");
-                        controllerShow.getSelectedFolder().folderSelected = false;
+                        if (showController.getSelectedFolder() != null) {
+                            ElementController controller = showController.getSelectedFolder();
+                            controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
+                            controller.name.setSelected(false);
+                            controller.folderSelected = false;
+                        }
                         element_box.setStyle("-fx-background-color: #85C1E9;");
                         folderSelected = true;
+                        name.setSelected(true);
+                        showController.setSelectedFolder(this);
                     }
                 }
+                break;
+            default:
                 break;
         }
     }
@@ -104,15 +116,13 @@ public class ElementController {
     public void onCheckAction(ActionEvent actionEvent) {
         this.photoMenu.hide();
         if (name.isSelected()){
-            controllerShow.getSelectedList().add(this);
+            showController.getSelectedList().add(this);
             element_box.setStyle("-fx-background-color: #85C1E9;");
         }
         else{
-            controllerShow.getSelectedList().remove(this);
+            showController.getSelectedList().remove(this);
             element_box.setStyle("-fx-background-color: #D6DBDF;");
         }
-        System.out.println(this);
-        System.out.println(photo);
     }
 
     public void setName(String name){
@@ -124,39 +134,35 @@ public class ElementController {
     }
 
     @FXML
-    public void onImageMenu(ContextMenuEvent contextMenuEvent) {
+    public void onContextMenu(ContextMenuEvent contextMenuEvent) {
         switch (getType()){
             case photoType:
-                if (controllerShow.getSelectedList().size() == 0){
-                    controllerShow.getSelectedList().add(this);
+                if (showController.getSelectedList().size() == 0){
+                    showController.getSelectedList().add(this);
                     name.setSelected(true);
                     element_box.setStyle("-fx-background-color: #85C1E9;");
                 } else {
                     if (!name.isSelected()) {
-                        for (ElementController controller:controllerShow.getSelectedList()){
+                        for (ElementController controller: showController.getSelectedList()){
                             controller.name.setSelected(false);
                             controller.element_box.setStyle("-fx-background-color: #D6DBDF;");
                         }
-                        controllerShow.getSelectedList().clear();
-                        controllerShow.getSelectedList().add(this);
+                        showController.getSelectedList().clear();
+                        showController.getSelectedList().add(this);
                         name.setSelected(true);
                         element_box.setStyle("-fx-background-color: #85C1E9;");
                     }
                 }
-                this.photoMenu.show(element_box,contextMenuEvent.getScreenX(),contextMenuEvent.getScreenY());
+                photoMenu.show(element_box,contextMenuEvent.getScreenX(),contextMenuEvent.getScreenY());
                 break;
             case folderType:
                 if (!name.isSelected()) {
                     name.setSelected(true);
                     element_box.setStyle("-fx-background-color: #85C1E9;");
                 }
-                this.folderMenu.show(element_box,contextMenuEvent.getScreenX(),contextMenuEvent.getScreenY());
+                folderMenu.show(element_box,contextMenuEvent.getScreenX(),contextMenuEvent.getScreenY());
                 break;
         }
-    }
-
-    public void setShowController(ShowController showController) {
-        this.controllerShow = showController;
     }
 
     public void setPhoto(Photo photo){
@@ -173,5 +179,11 @@ public class ElementController {
 
     public void setFolder(Folder folder){
         this.folder = folder;
+    }
+
+    public void openFolder() throws Exception{
+        String name = folder.getName();
+        mainController.menuController.setPhotoList("select * from photo where device = '"+name+"';", null);
+        mainController.showController.refreshViewer();
     }
 }

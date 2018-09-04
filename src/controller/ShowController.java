@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ShowController {
-    private MainController controllerMain;
+    private MainController mainController;
     private static ArrayList<ElementController> selectedList = new ArrayList<>();
     private static ElementController selectedFolder = null;
 
@@ -35,9 +35,6 @@ public class ShowController {
     ElementController elementController;
 
     public static ArrayList<ElementController> getSelectedList() {
-        for (ElementController controller:selectedList){
-            System.out.println(controller.getPhoto().getId());
-        }
         return selectedList;
     }
 
@@ -54,24 +51,24 @@ public class ShowController {
     }
 
     void injectMainController(MainController controllerMain){
-        this.controllerMain = controllerMain;
+        this.mainController = controllerMain;
     }
 
     public void setPath(Path selectedPath) throws Exception {
-        controllerMain.path = selectedPath;
+        mainController.path = selectedPath;
         resetDB(selectedPath);
     }
 
     public void resetDB(Path selectedPath) throws Exception{
         DBInit.DBInit();
-        ArrayList<Path> paths = PathAnalysis.analysis(controllerMain.path);
+        ArrayList<Path> paths = PathAnalysis.analysis(mainController.path);
         Service service = new Service() {
             @Override
             protected Task createTask() {
                 return new Task() {
                     @Override
                     protected Object call() throws Exception {
-                        controllerMain.optController.progress_bar.setVisible(true);
+                        mainController.optController.progress_bar.setVisible(true);
                         int progress = 0;
                         for (Path path:paths) {
                             File file = new File(path.toString());
@@ -83,46 +80,47 @@ public class ShowController {
                             progress++;
                             updateProgress(progress, paths.size());
                         }
-                        controllerMain.optController.progress_bar.setVisible(false);
-                        Platform.runLater(() -> controllerMain.optController.path_text.setText(selectedPath.toString()));
+                        mainController.optController.progress_bar.setVisible(false);
+                        Platform.runLater(() -> mainController.optController.path_text.setText(selectedPath.toString()));
                         return null;
                     }
                 };
             }
         };
-        controllerMain.optController.progress_bar.progressProperty().bind(service.progressProperty());
+        mainController.optController.progress_bar.progressProperty().bind(service.progressProperty());
         service.start();
     }
 
     public void refreshViewer() throws Exception {
         show_pane.getChildren().clear();
-        for (Photo photo : controllerMain.photoList) {
+        for (Photo photo : mainController.photoList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
             VBox element = loader.load();
             ElementController elementController = loader.getController();
+            elementController.setMainController(mainController);
             elementController.setPhoto(photo);
             elementController.setName(photo.getName());
             elementController.setType(ElementController.photoType);
             Image thumbnail = new Image(photo.getDir().toUri().toString(), 120, 140, false, false);
             elementController.setImage(thumbnail);
-            elementController.setShowController(this);
             show_pane.getChildren().add(element);
         }
     }
 
-    // vbox ---> element box has not set
     public void refreshViewerFolder() throws Exception{
         show_pane.getChildren().clear();
-        for (Folder folder : controllerMain.folderList) {
+        for (Folder folder : mainController.folderList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
             VBox element = loader.load();
-            ElementController controllerElement = loader.getController();
-            controllerElement.setName(folder.getName());
-            controllerElement.setType(ElementController.folderType);
-            controllerElement.name.setMouseTransparent(true);
+            ElementController elementController = loader.getController();
+            elementController.setMainController(mainController);
+            elementController.setFolder(folder);
+            elementController.setName(folder.getName());
+            elementController.setType(ElementController.folderType);
+            elementController.name.setMouseTransparent(true);
             String imagePath = "/pic/folder_icon.png";
             Image image = new Image(imagePath);
-            controllerElement.setImage(image);
+            elementController.setImage(image);
             show_pane.getChildren().add(element);
         }
     }

@@ -76,7 +76,7 @@ public class MenuController {
         enableLabel();
         menu_category.setDisable(true);
         hideMenu();
-        controllerMain.showController.refreshViewer();
+        controllerMain.showController.refreshViewerFolder();
     }
     public void refreshListBin() throws Exception {
         enableLabel();
@@ -85,7 +85,7 @@ public class MenuController {
         controllerMain.showController.refreshViewer();
     }
 
-    private static void setPhotoList(String selectSQL, String countSQL) throws Exception{
+    public static void setPhotoList(String selectSQL, String countSQL) throws Exception{
         Connection connection = DriverManager.getConnection(DBInfo.DB_DB_URL);
         Statement statementOut = connection.createStatement();
         Statement statementIn = connection.createStatement();

@@ -48,15 +48,15 @@ public class ActivityDialogController {
 //                }
 //            }
 //        });
-        String name = activityName.getText();
-        LocalDate date = datePicker.getValue();
-        date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-        String location = locationText.getText();
-        String description = descriptionText.getText();
-        Optional<ButtonType> result;
 
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure you want to add this activity?");
         if (integrityCheck()) {
+            String name = activityName.getText();
+            LocalDate date = datePicker.getValue();
+            date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            String location = locationText.getText();
+            String description = descriptionText.getText();
+            Optional<ButtonType> result;
             result = alert.showAndWait();
             if (result.isPresent() && result.get() == ButtonType.OK) {
                 ArrayList<ElementController> photoList = ShowController.getSelectedList();
@@ -78,7 +78,6 @@ public class ActivityDialogController {
                         Photo photo = controller.getPhoto();
                         int id = photo.getId();
                         updatePhoto.executeUpdate("update photo set activity='"+currentId+"' where id='"+id+"';");
-                        System.out.println("updated.");
                     }
                     addActivity.close();
                     updatePhoto.close();
@@ -92,6 +91,7 @@ public class ActivityDialogController {
                     Photo photo = controller.getPhoto();
                     photo.setActivity(name);
                 }
+                Controller.closeDialog();
             }
         }else {
             Alert integrityAlert = new Alert(Alert.AlertType.ERROR, "Check the activity information integrity.");
@@ -105,7 +105,9 @@ public class ActivityDialogController {
 
     private boolean integrityCheck(){
         // integrity check.
-        if (activityName.getText().isEmpty()||datePicker.getValue().equals(null)||descriptionText.getText().isEmpty()) return false;
+        if (activityName.getText().isEmpty()||datePicker.getValue()==null||descriptionText.getText().isEmpty()) {
+            return false;
+        }
         return  true;
     }
 }
