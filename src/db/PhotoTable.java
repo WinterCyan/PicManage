@@ -16,7 +16,7 @@ public class PhotoTable {
         Statement statement = connection.createStatement();
         ResultSet set = statement.executeQuery(String.format("select name from device;"));
         if (!deviceExist(set,device)){
-            if (device!=null){
+//            if (device!=null){
                 PreparedStatement deviceStatement = connection.prepareStatement(newDevice);
                 deviceStatement.setString(1,device);
                 deviceStatement.execute();
@@ -25,8 +25,18 @@ public class PhotoTable {
                 ResultSet setDeviceId = statementDeviceId.executeQuery(String.format("select id from device where name=" +
                         "'"+device+"';"));
                 if (setDeviceId.next()) deviceId = setDeviceId.getInt("id");
-            }
+                statementDeviceId.close();
+//            }
+        }else {
+//            if (device!=null) {
+                Statement statementDeviceId = connection.createStatement();
+                ResultSet setDeviceId = statementDeviceId.executeQuery(String.format("select id from device where name=" +
+                        "'"+device+"';"));
+                if (setDeviceId.next()) deviceId = setDeviceId.getInt("id");
+                statementDeviceId.close();
+//            }
         }
+        statement.close();
 
         PreparedStatement photoStatement = connection.prepareStatement(newPhoto);
         photoStatement.setString(1,name);

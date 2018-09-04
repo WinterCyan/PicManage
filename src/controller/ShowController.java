@@ -70,11 +70,13 @@ public class ShowController {
                     protected Object call() throws Exception {
                         mainController.optController.progress_bar.setVisible(true);
                         int progress = 0;
+                        HashMap<String, String> map;
                         for (Path path:paths) {
                             File file = new File(path.toString());
-                            HashMap<String, String> map = MetadataInfo.getMap(file.toPath());
-                            String model = null;
+                            map = MetadataInfo.getMap(file.toPath());
+                            String model;
                             if (map.get("Model") != null) model = map.get("Model").substring(20);
+                            else model = "null";
                             PhotoTable.addPhoto(file.getName(), file.getPath(), model, (int) file.length(),
                                     StringToTimestamp.getOriginTime(file), StringToTimestamp.getModifiedTime(file));
                             progress++;

@@ -182,8 +182,9 @@ public class ElementController {
     }
 
     public void openFolder() throws Exception{
-        String name = folder.getName();
-        mainController.menuController.setPhotoList("select * from photo where device = '"+name+"';", null);
+        int id = folder.getId();
+        mainController.photoList.clear();
+        mainController.menuController.setPhotoList("select * from photo where device = '"+id+"';", null);
         mainController.showController.refreshViewer();
     }
 }

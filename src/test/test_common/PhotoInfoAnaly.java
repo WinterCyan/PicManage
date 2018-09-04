@@ -46,7 +46,7 @@ public class PhotoInfoAnaly
 {
     public static void main(String[] args)
     {
-        File file = new File("/Users/wintercyan/Pictures/downloads/Python3/python5.jpg");
+        File file = new File("/Users/wintercyan/pictest/Screenshot_20180902-022359.png");
 
         // There are multiple ways to get a Metadata object for a file
 

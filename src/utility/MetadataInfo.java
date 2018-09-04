@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MetadataInfo {
-    private static HashMap<String, String> map = new HashMap<>();
     private static final ArrayList<String> tagArray = new ArrayList<>(){{
         add("File Name");
         add("File Size");
@@ -23,6 +22,7 @@ public class MetadataInfo {
     }};
 
     public static HashMap<String, String> getMap(Path path){
+        HashMap<String, String> map = new HashMap<>();
         File file = new File(path.toString());
         try {
             Metadata metadata = ImageMetadataReader.readMetadata(file);

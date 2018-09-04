@@ -6,20 +6,20 @@
 <?import javafx.scene.layout.BorderPane?>
 <VBox prefHeight="720.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
     <children>
-        <fx:include fx:id="opt" source="opt.fxml" />
-        <BorderPane style="-fx-background-color: #BFC9CA;" VBox.vgrow="ALWAYS">
-            <left>
-                <fx:include fx:id="menu" source="menu.fxml" />
-            </left>
-            <center>
-                <fx:include fx:id="show" source="show.fxml" />
-            </center>
-            <right>
-                <fx:include fx:id="info" source="info.fxml" />
-            </right>
-         <padding>
+    <fx:include fx:id="opt" source="opt.fxml" />
+    <BorderPane style="-fx-background-color: #BFC9CA;" VBox.vgrow="ALWAYS">
+        <left>
+            <fx:include fx:id="menu" source="menu.fxml" />
+        </left>
+        <center>
+            <fx:include fx:id="show" source="show.fxml" />
+        </center>
+        <right>
+            <fx:include fx:id="info" source="info.fxml" />
+        </right>
+        <padding>
             <Insets top="2.0" />
-         </padding>
+        </padding>
     </BorderPane>
-    </children>
+</children>
 </VBox>

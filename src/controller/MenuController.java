@@ -188,6 +188,7 @@ public class MenuController {
             ResultSet sizeSet = statementIn.executeQuery(String.format("select count(*) from photo where device = '"+id+"';"));
             if (sizeSet.next()) fileNum = sizeSet.getInt(1);
             Folder folder = new Folder();
+            folder.setId(id);
             folder.setFileNum(fileNum);
             folder.setName(name);
 
