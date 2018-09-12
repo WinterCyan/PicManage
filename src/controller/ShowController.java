@@ -102,14 +102,14 @@ public class ShowController {
             elementController.setMainController(mainController);
             elementController.setPhoto(photo);
             elementController.setName(photo.getName());
-            elementController.setType(ElementController.photoType);
+            elementController.setType(ElementController.PHOTO_TYPE);
             Image thumbnail = new Image(photo.getDir().toUri().toString(), 120, 140, false, false);
             elementController.setImage(thumbnail);
             show_pane.getChildren().add(element);
         }
     }
 
-    public void refreshViewerFolder() throws Exception{
+    public void refreshViewerFolder(String type) throws Exception{
         show_pane.getChildren().clear();
         for (Folder folder : mainController.folderList) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxml/element.fxml"));
@@ -118,7 +118,8 @@ public class ShowController {
             elementController.setMainController(mainController);
             elementController.setFolder(folder);
             elementController.setName(folder.getName());
-            elementController.setType(ElementController.folderType);
+            elementController.setType(ElementController.FOLDER_TYPE);
+            elementController.setFolderType(type);
             elementController.name.setMouseTransparent(true);
             String imagePath = "/pic/folder_icon.png";
             Image image = new Image(imagePath);

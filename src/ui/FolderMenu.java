@@ -12,7 +12,7 @@ public class FolderMenu extends ContextMenu {
 
         open.setOnAction(event -> {
             try {
-                controller.openFolder();
+                controller.openFolder(controller.getFolderType());
             } catch (Exception e) {
                 e.printStackTrace();
             }

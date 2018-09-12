@@ -24,31 +24,6 @@ public class ActivityDialogController {
     TextArea descriptionText;
 
     public void okAction() {
-//        datePicker.setConverter(new StringConverter<>() {
-//            String pattern = "yyyy-MM-dd";
-//            DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern(pattern);
-//
-//            {
-//                datePicker.setPromptText(pattern.toLowerCase());
-//            }
-//
-//            @Override public String toString(LocalDate date) {
-//                if (date != null) {
-//                    return dateFormatter.format(date);
-//                } else {
-//                    return "";
-//                }
-//            }
-//
-//            @Override public LocalDate fromString(String string) {
-//                if (string != null && !string.isEmpty()) {
-//                    return LocalDate.parse(string, dateFormatter);
-//                } else {
-//                    return null;
-//                }
-//            }
-//        });
-
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you sure you want to add this activity?");
         if (integrityCheck()) {
             String name = activityName.getText();

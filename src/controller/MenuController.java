@@ -55,20 +55,26 @@ public class MenuController {
         hideMenu();
         controllerMain.folderList.clear();
         setDeviceList();
-        controllerMain.showController.refreshViewerFolder();
+        controllerMain.showController.refreshViewerFolder(ElementController.deviceType);
     }
     @FXML
     public void refreshListPerson() throws Exception {
         enableLabel();
         menu_person.setDisable(true);
         hideMenu();
+        controllerMain.folderList.clear();
+//        setPersonList();
+//        controllerMain.showController.refreshViewerFolder(ElementController.personType);
     }
 
     @FXML
     public void refreshListActivity() throws Exception {
         enableLabel();
-        menu_device.setDisable(true);
+        menu_activity.setDisable(true);
         hideMenu();
+        controllerMain.folderList.clear();
+        setActivityList();
+        controllerMain.showController.refreshViewerFolder(ElementController.activityType);
     }
 
     @FXML
@@ -76,7 +82,8 @@ public class MenuController {
         enableLabel();
         menu_category.setDisable(true);
         hideMenu();
-        controllerMain.showController.refreshViewerFolder();
+        controllerMain.folderList.clear();
+        controllerMain.showController.refreshViewerFolder(ElementController.categoryType);
     }
     public void refreshListBin() throws Exception {
         enableLabel();
@@ -186,6 +193,30 @@ public class MenuController {
             int id = set.getInt("id");
             int fileNum = 0;
             ResultSet sizeSet = statementIn.executeQuery(String.format("select count(*) from photo where device = '"+id+"';"));
+            if (sizeSet.next()) fileNum = sizeSet.getInt(1);
+            Folder folder = new Folder();
+            folder.setId(id);
+            folder.setFileNum(fileNum);
+            folder.setName(name);
+
+            controllerMain.folderList.add(folder);
+        }
+        statementIn.close();
+        statementOut.close();
+    }
+
+    private static void setActivityList() throws Exception{
+        Class.forName(DBInfo.JDBC_DRIVER).getConstructor().newInstance();
+        Connection connection = DriverManager.getConnection(DBInfo.DB_DB_URL);
+        Statement statementOut = connection.createStatement();
+        Statement statementIn = connection.createStatement();
+        ResultSet set = statementOut.executeQuery("select * from activity");
+
+        while (set.next()){
+            String name = set.getString("name");
+            int id = set.getInt("id");
+            int fileNum = 0;
+            ResultSet sizeSet = statementIn.executeQuery(String.format("select count(*) from photo where activity = '"+id+"';"));
             if (sizeSet.next()) fileNum = sizeSet.getInt(1);
             Folder folder = new Folder();
             folder.setId(id);
