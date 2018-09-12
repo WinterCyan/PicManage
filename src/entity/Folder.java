@@ -2,6 +2,7 @@ package entity;
 
 public class Folder {
     private int fileNum;
+    private int totalSize;
     private float size;
 
     int id;
@@ -39,4 +40,11 @@ public class Folder {
         this.id = id;
     }
 
+    public int getTotalSize() {
+        return totalSize;
+    }
+
+    public void setTotalSize(int totalSize) {
+        this.totalSize = totalSize;
+    }
 }

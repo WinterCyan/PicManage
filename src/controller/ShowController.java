@@ -26,6 +26,7 @@ public class ShowController {
     private MainController mainController;
     private static ArrayList<ElementController> selectedList = new ArrayList<>();
     private static ElementController selectedFolder = null;
+    private String isShowingType;
 
     @FXML
     FlowPane show_pane;
@@ -126,5 +127,13 @@ public class ShowController {
             elementController.setImage(image);
             show_pane.getChildren().add(element);
         }
+    }
+
+    public String getIsShowingType() {
+        return isShowingType;
+    }
+
+    public void setIsShowingType(String isShowingType) {
+        this.isShowingType = isShowingType;
     }
 }

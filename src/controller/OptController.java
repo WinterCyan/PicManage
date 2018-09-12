@@ -1,5 +1,6 @@
 package controller;
 
+import entity.Folder;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -10,8 +11,9 @@ import javafx.stage.Stage;
 import java.io.File;
 
 public class OptController {
-    private MainController controllerMain;
+    private MainController mainController;
     private Stage primaryStage;
+    private String type;
 
     @FXML Label path_text;
     @FXML Button info_btn;
@@ -19,7 +21,7 @@ public class OptController {
     @FXML ProgressBar progress_bar;
 
     void injectMainController(MainController controllerMain){
-        this.controllerMain = controllerMain;
+        this.mainController = controllerMain;
     }
 
     @FXML
@@ -30,8 +32,8 @@ public class OptController {
             if (path_text.getText().equals("")) path_text.setText("No path selected.");
         }
         else {
-            controllerMain.showController.show_pane.getChildren().clear();
-            controllerMain.showController.setPath(selected.toPath());
+            mainController.showController.show_pane.getChildren().clear();
+            mainController.showController.setPath(selected.toPath());
         }
     }
 
@@ -41,29 +43,48 @@ public class OptController {
 
     @FXML
     public void infoBtnAction() {
-        if (controllerMain.getInfoState()){
-            controllerMain.getInfoPane().setMaxWidth(0);
-            controllerMain.getInfoPane().setMinWidth(0);
-            controllerMain.setInfoState(false);
+        if (mainController.getInfoState()){
+            mainController.getInfoPane().setMaxWidth(0);
+            mainController.getInfoPane().setMinWidth(0);
+            mainController.setInfoState(false);
         }
         else {
-            controllerMain.getInfoPane().setMaxWidth(230);
-            controllerMain.getInfoPane().setMinWidth(230);
-            controllerMain.setInfoState(true);
+            // refresh ui. get information, get label and text area, fill it.
+            String type = mainController.showController.getIsShowingType();
+            if (type!=null){
+                // folder:
+                if (type.equals(ElementController.FOLDER_TYPE)){
+                    ElementController controller = mainController.showController.getSelectedFolder();
+                    Folder folder = controller.getFolder();
+                    int photoNum = folder.getFileNum();
+                    type = "Folder";
+                    int totalSize = folder.getTotalSize();
+                    // show information.
+                    mainController.infoController.setInfoPane("Type: "+type+"\n" +
+                            "Photo Number: "+photoNum+"\n" +
+                            "Total Size: "+(totalSize/1000)/1000.0+"Mb");
+
+                    mainController.getInfoPane().setMaxWidth(230);
+                    mainController.getInfoPane().setMinWidth(230);
+                } else if (type.equals(ElementController.PHOTO_TYPE)){
+                    // photo:
+                }
+            }
+            mainController.setInfoState(true);
         }
     }
 
     @FXML
     public void menuBtnAction(){
-        if (controllerMain.getMenuState()){
-            controllerMain.getMenuPane().setMaxWidth(0);
-            controllerMain.getMenuPane().setMinWidth(0);
-            controllerMain.setMenuState(false);
+        if (mainController.getMenuState()){
+            mainController.getMenuPane().setMaxWidth(0);
+            mainController.getMenuPane().setMinWidth(0);
+            mainController.setMenuState(false);
         }
         else {
-            controllerMain.getMenuPane().setMaxWidth(150);
-            controllerMain.getMenuPane().setMaxWidth(150);
-            controllerMain.setMenuState(true);
+            mainController.getMenuPane().setMaxWidth(150);
+            mainController.getMenuPane().setMaxWidth(150);
+            mainController.setMenuState(true);
         }
     }
 }

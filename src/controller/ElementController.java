@@ -211,5 +211,6 @@ public class ElementController {
             default:
                 break;
         }
+        mainController.showController.setIsShowingType(PHOTO_TYPE);
     }
 }

@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment=",">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ElementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/entity/ViewList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/test/test_common/DeviceIdTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/ui/FolderMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ElementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ElementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/OptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/ViewList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/FolderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/FolderMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Folder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/info.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,22 +202,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="fxml" value="2" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="fxml" value="118" />
+          <entry key="java" value="2959" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="2959" />
+          <entry key="XML" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -240,62 +234,98 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="457">
+              <caret line="192" column="21" lean-forward="true" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
               <folding>
                 <element signature="e#1624#1625#0" expanded="true" />
                 <element signature="e#1668#1669#0" expanded="true" />
                 <element signature="method#onMouseEntered#0;class#ElementController#0" />
                 <element signature="method#onMouseExited#0;class#ElementController#0" />
                 <element signature="method#onCheckAction#0;class#ElementController#0" />
+                <element signature="e#6629#6630#0" expanded="true" />
+                <element signature="e#6665#6666#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="667">
+              <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
+              <folding>
+                <element signature="method#hideMenu#0;class#MenuController#0" />
+                <element signature="method#refreshListAll#0;class#MenuController#0" />
+                <element signature="method#refreshListPerson#0;class#MenuController#0" />
+                <element signature="e#1899#1925#0" />
+                <element signature="method#refreshListActivity#0;class#MenuController#0" />
+                <element signature="method#refreshListBin#0;class#MenuController#0" />
+                <element signature="method#setPhotoList#0;class#MenuController#0" />
+                <element signature="e#5804#5830#0" />
+                <element signature="e#5977#6020#0" />
+                <element signature="e#0#20#1" />
+                <element signature="e#0#36#1" />
+                <element signature="e#0#49#1" />
+                <element signature="e#0#22#1" />
+                <element signature="method#enableLabel#0;class#MenuController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java">
+        <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="345">
+              <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#pathBtnAction#0;class#OptController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/DBInit.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
+        <entry file="file://$PROJECT_DIR$/src/controller/InfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="289">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="236">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#686#687#0" expanded="true" />
                 <element signature="e#720#721#0" expanded="true" />
               </folding>
@@ -304,58 +334,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding>
+                <element signature="method#setSelectedList#0;class#ShowController#0" />
+                <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+                <element signature="method#setPath#0;class#ShowController#0" />
+                <element signature="method#resetDB#0;class#ShowController#0" />
+                <element signature="e#5266#5267#0" expanded="true" />
+                <element signature="e#5302#5303#0" expanded="true" />
+                <element signature="e#5360#5361#0" expanded="true" />
+                <element signature="e#5410#5411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="340">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/PhotoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Photo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="method#pathBtnAction#0;class#OptController#0" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -394,7 +415,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ui/InfoPane.java" />
         <option value="$PROJECT_DIR$/src/test/test_info/info_pane.fxml" />
         <option value="$PROJECT_DIR$/src/db/DBInfo.java" />
         <option value="$PROJECT_DIR$/src/utility/StringToTimestamp.java" />
@@ -426,25 +446,26 @@
         <option value="$PROJECT_DIR$/src/utility/ClickHandler.java" />
         <option value="$PROJECT_DIR$/src/fxml/element.fxml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/controller/OptController.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/DeleteTest.java" />
         <option value="$PROJECT_DIR$/src/fxml/opt.fxml" />
         <option value="$PROJECT_DIR$/src/fxml/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/fxml/info.fxml" />
         <option value="$PROJECT_DIR$/src/fxml/main.fxml" />
         <option value="$PROJECT_DIR$/src/db/DBInit.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" />
         <option value="$PROJECT_DIR$/src/db/PhotoTable.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/DeviceIdTest.java" />
         <option value="$PROJECT_DIR$/src/utility/MetadataInfo.java" />
-        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
         <option value="$PROJECT_DIR$/src/ui/FolderMenu.java" />
         <option value="$PROJECT_DIR$/src/entity/Info.java" />
         <option value="$PROJECT_DIR$/src/entity/Item.java" />
-        <option value="$PROJECT_DIR$/src/entity/Folder.java" />
-        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/controller/ElementController.java" />
         <option value="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" />
+        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
+        <option value="$PROJECT_DIR$/src/entity/Folder.java" />
+        <option value="$PROJECT_DIR$/src/controller/ElementController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/controller/InfoController.java" />
+        <option value="$PROJECT_DIR$/src/fxml/info.fxml" />
+        <option value="$PROJECT_DIR$/src/controller/OptController.java" />
       </list>
     </option>
   </component>
@@ -579,7 +600,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaUProjects/PicManage/src/test/ui.fxml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536158661248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536756931900" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -874,7 +895,7 @@
       <workItem from="1536220512157" duration="1631000" />
       <workItem from="1536290600728" duration="143000" />
       <workItem from="1536654412159" duration="1649000" />
-      <workItem from="1536735081018" duration="738000" />
+      <workItem from="1536735081018" duration="7545000" />
     </task>
     <servers />
   </component>
@@ -884,7 +905,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379931000" />
+    <option name="totallyTimeSpent" value="386738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -899,7 +920,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33571428" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -1004,13 +1025,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/FolderItem.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/PhotoItem.java" />
-    <entry file="file://$PROJECT_DIR$/src/controller/InfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.fxml/javafx/fxml/FXML.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -1036,13 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1076,10 +1083,6 @@
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db/DBInfo.java">
@@ -1145,34 +1148,10 @@
     <entry file="file://$PROJECT_DIR$/src/entity/ViewList.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/Info.java" />
     <entry file="file://$PROJECT_DIR$/src/entity/Item.java" />
-    <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/PhotoMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="85" column="52" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
-          <folding>
-            <element signature="method#hideMenu#0;class#MenuController#0" />
-            <element signature="method#refreshListAll#0;class#MenuController#0" />
-            <element signature="method#refreshListDevice#0;class#MenuController#0" />
-            <element signature="method#refreshListBin#0;class#MenuController#0" />
-            <element signature="method#setPhotoList#0;class#MenuController#0" />
-            <element signature="method#setDeviceList#0;class#MenuController#0" />
-            <element signature="method#setActivityList#0;class#MenuController#0" />
-            <element signature="method#enableLabel#0;class#MenuController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,71 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-          <folding>
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="method#onMouseEntered#0;class#ElementController#0" />
-            <element signature="method#onMouseExited#0;class#ElementController#0" />
-            <element signature="method#onCheckAction#0;class#ElementController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/DBInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="method#pathBtnAction#0;class#OptController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,8 +1197,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="28">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="192" column="21" lean-forward="true" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
+          <folding>
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="method#onMouseEntered#0;class#ElementController#0" />
+            <element signature="method#onMouseExited#0;class#ElementController#0" />
+            <element signature="method#onCheckAction#0;class#ElementController#0" />
+            <element signature="e#6629#6630#0" expanded="true" />
+            <element signature="e#6665#6666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="method#setSelectedList#0;class#ShowController#0" />
+            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+            <element signature="method#setPath#0;class#ShowController#0" />
+            <element signature="method#resetDB#0;class#ShowController#0" />
+            <element signature="e#5266#5267#0" expanded="true" />
+            <element signature="e#5302#5303#0" expanded="true" />
+            <element signature="e#5360#5361#0" expanded="true" />
+            <element signature="e#5410#5411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/InfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
+          <folding>
+            <element signature="method#hideMenu#0;class#MenuController#0" />
+            <element signature="method#refreshListAll#0;class#MenuController#0" />
+            <element signature="method#refreshListPerson#0;class#MenuController#0" />
+            <element signature="e#1899#1925#0" />
+            <element signature="method#refreshListActivity#0;class#MenuController#0" />
+            <element signature="method#refreshListBin#0;class#MenuController#0" />
+            <element signature="method#setPhotoList#0;class#MenuController#0" />
+            <element signature="e#5804#5830#0" />
+            <element signature="e#5977#6020#0" />
+            <element signature="e#0#20#1" />
+            <element signature="e#0#36#1" />
+            <element signature="e#0#49#1" />
+            <element signature="e#0#22#1" />
+            <element signature="method#enableLabel#0;class#MenuController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#pathBtnAction#0;class#OptController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

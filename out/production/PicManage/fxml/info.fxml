@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.TextFlow?>
 
-<VBox fx:id="info_pane" maxWidth="0.0" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InfoController">
+<VBox fx:id="info_pane" maxWidth="0.0" minWidth="0.0" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InfoController">
     <children>
-        <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
-            <children>
-                <Label styleClass="info_label" text="Label" />
-            </children>
-        </TextFlow>
-        <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
-            <children>
-                <Label styleClass="info_label" text="Label" />
-            </children>
-        </TextFlow>
-        <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
-            <children>
-                <Label styleClass="info_label" text="Label" />
-            </children>
-        </TextFlow>
-        <TextFlow styleClass="info_text" VBox.vgrow="ALWAYS">
-            <children>
-                <Label styleClass="info_label" text="Label" />
-            </children>
-        </TextFlow>
+        <TextArea fx:id="general_info" VBox.vgrow="ALWAYS" />
     </children>
 </VBox>

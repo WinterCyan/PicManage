@@ -47,6 +47,7 @@ public class MenuController {
         controllerMain.photoList.clear();
         setPhotoList("select * from photo","select count(*) from photo");
         controllerMain.showController.refreshViewer();
+        controllerMain.showController.setIsShowingType(ElementController.PHOTO_TYPE);
     }
     @FXML
     public void refreshListDevice() throws Exception {
@@ -56,6 +57,7 @@ public class MenuController {
         controllerMain.folderList.clear();
         setDeviceList();
         controllerMain.showController.refreshViewerFolder(ElementController.deviceType);
+        controllerMain.showController.setIsShowingType(ElementController.FOLDER_TYPE);
     }
     @FXML
     public void refreshListPerson() throws Exception {
@@ -65,6 +67,7 @@ public class MenuController {
         controllerMain.folderList.clear();
 //        setPersonList();
 //        controllerMain.showController.refreshViewerFolder(ElementController.personType);
+//        controllerMain.showController.setIsShowingType(ElementController.FOLDER_TYPE);
     }
 
     @FXML
@@ -75,6 +78,7 @@ public class MenuController {
         controllerMain.folderList.clear();
         setActivityList();
         controllerMain.showController.refreshViewerFolder(ElementController.activityType);
+        controllerMain.showController.setIsShowingType(ElementController.FOLDER_TYPE);
     }
 
     @FXML
@@ -84,12 +88,14 @@ public class MenuController {
         hideMenu();
         controllerMain.folderList.clear();
         controllerMain.showController.refreshViewerFolder(ElementController.categoryType);
+        controllerMain.showController.setIsShowingType(ElementController.FOLDER_TYPE);
     }
     public void refreshListBin() throws Exception {
         enableLabel();
         menu_bin.setDisable(true);
         hideMenu();
         controllerMain.showController.refreshViewer();
+        controllerMain.showController.setIsShowingType(ElementController.PHOTO_TYPE);
     }
 
     public static void setPhotoList(String selectSQL, String countSQL) throws Exception{
@@ -187,16 +193,23 @@ public class MenuController {
         Statement statementOut = connection.createStatement();
         Statement statementIn = connection.createStatement();
         ResultSet set = statementOut.executeQuery("select * from device");
-
-        while (set.next()){
+        while (set.next()){ // set of devices
             String name = set.getString("name");
             int id = set.getInt("id");
             int fileNum = 0;
+            int singleSize;
+            int totalSize = 0;
+            ResultSet photoSet = statementIn.executeQuery("select * from photo where device = '"+id+"'");
+            while (photoSet.next()){
+                singleSize = photoSet.getInt("size");
+                totalSize += singleSize;
+            }
             ResultSet sizeSet = statementIn.executeQuery(String.format("select count(*) from photo where device = '"+id+"';"));
             if (sizeSet.next()) fileNum = sizeSet.getInt(1);
             Folder folder = new Folder();
             folder.setId(id);
             folder.setFileNum(fileNum);
+            folder.setTotalSize(totalSize);
             folder.setName(name);
 
             controllerMain.folderList.add(folder);
@@ -216,11 +229,19 @@ public class MenuController {
             String name = set.getString("name");
             int id = set.getInt("id");
             int fileNum = 0;
+            int singleSize;
+            int totalSize = 0;
+            ResultSet photoSet = statementIn.executeQuery("select * from photo where activity = '"+id+"'");
+            while (photoSet.next()){
+                singleSize = photoSet.getInt("size");
+                totalSize += singleSize;
+            }
             ResultSet sizeSet = statementIn.executeQuery(String.format("select count(*) from photo where activity = '"+id+"';"));
             if (sizeSet.next()) fileNum = sizeSet.getInt(1);
             Folder folder = new Folder();
             folder.setId(id);
             folder.setFileNum(fileNum);
+            folder.setTotalSize(totalSize);
             folder.setName(name);
 
             controllerMain.folderList.add(folder);
@@ -228,6 +249,8 @@ public class MenuController {
         statementIn.close();
         statementOut.close();
     }
+
+//    private static void setPersonList() throws Exception{}
 
     private void enableLabel(){
         menu_all.setDisable(false);
