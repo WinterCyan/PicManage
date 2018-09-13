@@ -1,14 +1,18 @@
 package controller;
 
 import entity.Folder;
+import entity.Photo;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
+import utility.MetadataInfo;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class OptController {
     private MainController mainController;
@@ -68,6 +72,20 @@ public class OptController {
                     mainController.getInfoPane().setMinWidth(230);
                 } else if (type.equals(ElementController.PHOTO_TYPE)){
                     // photo:
+                    ArrayList<ElementController> controllerList = mainController.showController.getSelectedList();
+                    if (controllerList.size()==1){
+                        StringBuilder photoInfo = new StringBuilder();
+                        ElementController controller = controllerList.get(0);
+                        Photo photo = controller.getPhoto();
+                        HashMap<String,String> map = MetadataInfo.getMap(photo.getDir());
+                        for (String tag:map.keySet()){
+                            String tagValue = map.get(tag);
+                            photoInfo.append(tag + ": "+tagValue+"\n");
+                        }
+                        mainController.infoController.setInfoPane(photoInfo.toString());
+                        mainController.getInfoPane().setMaxWidth(230);
+                        mainController.getInfoPane().setMinWidth(230);
+                    }
                 }
             }
             mainController.setInfoState(true);

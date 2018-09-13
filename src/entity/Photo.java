@@ -1,6 +1,7 @@
 package entity;
 
 import java.nio.file.Path;
+import java.util.HashMap;
 
 public class Photo {
     private int id;
@@ -18,6 +19,8 @@ public class Photo {
     private String activity;
     private String comment;
     private String category;
+
+    private HashMap<String, String> metadataSet = new HashMap<>();
 
     public void setModifiedTime(String modifiedTime) {
         this.modifiedTime = modifiedTime;
@@ -115,5 +118,13 @@ public class Photo {
 
     public boolean isBin() {
         return bin;
+    }
+
+    public HashMap<String, String> getMetadataSet() {
+        return metadataSet;
+    }
+
+    public void setMetadataSet(HashMap<String, String> metadataSet) {
+        this.metadataSet = metadataSet;
     }
 }

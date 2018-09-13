@@ -46,7 +46,7 @@ public class PhotoInfoAnaly
 {
     public static void main(String[] args)
     {
-        File file = new File("/Users/wintercyan/pictest/Screenshot_20180902-022359.png");
+        File file = new File("/Users/wintercyan/pictest/IMG_20180822_111856.jpg");
 
         // There are multiple ways to get a Metadata object for a file
 
