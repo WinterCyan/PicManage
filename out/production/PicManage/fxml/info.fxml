@@ -6,6 +6,6 @@
 
 <VBox fx:id="info_pane" maxWidth="0.0" minWidth="0.0" stylesheets="@test_ui.css" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InfoController">
     <children>
-        <TextArea fx:id="general_info" VBox.vgrow="ALWAYS" />
+        <TextArea fx:id="general_info" wrapText="true" VBox.vgrow="ALWAYS" />
     </children>
 </VBox>

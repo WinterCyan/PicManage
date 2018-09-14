@@ -19,6 +19,17 @@ public class MetadataInfo {
         add("GPS Latitude");
         add("GPS Latitude");
         add("File Modified Date");
+        add("Image Width");
+        add("Image Height");
+        add("Make");
+        add("X Resolution");
+        add("Y Resolution");
+        add("F-Number");
+        add("Exposure Time");
+        add("Focal Length");
+        add("Color Space");
+        add("Detected File Type Name");
+        add("Expected File Name Extension");
     }};
 
     public static HashMap<String, String> getMap(Path path){

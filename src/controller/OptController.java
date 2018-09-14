@@ -13,6 +13,7 @@ import utility.MetadataInfo;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class OptController {
     private MainController mainController;
@@ -64,9 +65,9 @@ public class OptController {
                     type = "Folder";
                     int totalSize = folder.getTotalSize();
                     // show information.
-                    mainController.infoController.setInfoPane("Type: "+type+"\n" +
-                            "Photo Number: "+photoNum+"\n" +
-                            "Total Size: "+(totalSize/1000)/1000.0+"Mb");
+                    mainController.infoController.setInfoPane("▶︎Type:\n      "+type+"\n" +
+                            "▶Photo Number:\n      "+photoNum+"\n" +
+                            "▶Total Size:\n      "+(totalSize/1000)/1000.0+" Mb");
 
                     mainController.getInfoPane().setMaxWidth(230);
                     mainController.getInfoPane().setMinWidth(230);
@@ -78,9 +79,15 @@ public class OptController {
                         ElementController controller = controllerList.get(0);
                         Photo photo = controller.getPhoto();
                         HashMap<String,String> map = MetadataInfo.getMap(photo.getDir());
-                        for (String tag:map.keySet()){
+                        TreeMap<String,String> treeMap = new TreeMap<>();
+                        treeMap.putAll(map);
+                        for (String tag:treeMap.keySet()){
                             String tagValue = map.get(tag);
-                            photoInfo.append(tag + ": "+tagValue+"\n");
+                            String oneLine = tagValue.split("] ")[1];
+                            String[] twoParts = oneLine.split(" - ");
+                            String oneName =twoParts[0];
+                            String oneValue =twoParts[1];
+                            photoInfo.append("▶︎"+oneName+":\n      "+oneValue+"\n");
                         }
                         mainController.infoController.setInfoPane(photoInfo.toString());
                         mainController.getInfoPane().setMaxWidth(230);
