@@ -45,8 +45,10 @@ public class MenuController {
         menu_all.setDisable(true);
         hideMenu();
         controllerMain.photoList.clear();
+        System.out.println("Start refresh: "+System.currentTimeMillis());
         setPhotoList("select * from photo","select count(*) from photo");
         controllerMain.showController.refreshViewer();
+        System.out.println("End refresh: "+System.currentTimeMillis());
         controllerMain.showController.setIsShowingType(ElementController.PHOTO_TYPE);
     }
     @FXML

@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment=",">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PicManage/fxml/info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/fxml/info.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/OptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/OptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/info.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/MetadataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/MetadataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PicManage/controller/ShowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ShowController.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -194,34 +195,38 @@
     <session id="-1440774437">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="2" />
-          <entry key="java" value="21" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="23" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="118" />
-          <entry key="java" value="5028" />
+          <entry key="java" value="5358" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5028" />
+          <entry key="JAVA" value="5358" />
           <entry key="XML" value="118" />
         </counts>
       </usages-collector>
@@ -231,17 +236,16 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45510203">
+    <splitter split-orientation="horizontal" split-proportion="0.8043796">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+                <state relative-caret-position="1938">
+                  <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
                   <folding>
                     <element signature="method#hideMenu#0;class#MenuController#0" />
-                    <element signature="method#refreshListAll#0;class#MenuController#0" />
                     <element signature="method#refreshListPerson#0;class#MenuController#0" />
                     <element signature="method#refreshListActivity#0;class#MenuController#0" />
                     <element signature="method#refreshListBin#0;class#MenuController#0" />
@@ -254,11 +258,10 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1088">
-                  <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+                <state relative-caret-position="425">
+                  <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#pathBtnAction#0;class#OptController#0" />
                   </folding>
                 </state>
               </provider>
@@ -273,7 +276,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utility/MetadataInfo.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -325,20 +328,14 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+                <state relative-caret-position="916">
+                  <caret line="88" column="103" selection-start-line="88" selection-start-column="103" selection-end-line="88" selection-end-column="103" />
                   <folding>
                     <element signature="method#setSelectedList#0;class#ShowController#0" />
                     <element signature="method#setSelectedFolder#0;class#ShowController#0" />
-                    <element signature="method#setPath#0;class#ShowController#0" />
-                    <element signature="e#3328#3329#0" expanded="true" />
-                    <element signature="e#5266#5267#0" expanded="true" />
-                    <element signature="e#5302#5303#0" expanded="true" />
-                    <element signature="e#5360#5361#0" expanded="true" />
-                    <element signature="e#5410#5411#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -348,15 +345,32 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
-                  <caret line="69" column="82" lean-forward="true" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
+                <state relative-caret-position="714">
+                  <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#pathBtnAction#0;class#OptController#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/test_common/single_double.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="46">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/utility/ClickHandler.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -457,10 +471,8 @@
         <option value="$PROJECT_DIR$/src/entity/Info.java" />
         <option value="$PROJECT_DIR$/src/entity/Item.java" />
         <option value="$PROJECT_DIR$/src/dialog/activity/ActivityDialogController.java" />
-        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
         <option value="$PROJECT_DIR$/src/entity/Folder.java" />
         <option value="$PROJECT_DIR$/src/controller/ElementController.java" />
-        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/controller/InfoController.java" />
         <option value="$PROJECT_DIR$/src/test/test_common/PhotoInfoAnaly.java" />
         <option value="$PROJECT_DIR$/src/utility/PathAnalysis.java" />
@@ -468,6 +480,8 @@
         <option value="$PROJECT_DIR$/src/fxml/info.fxml" />
         <option value="$PROJECT_DIR$/src/utility/MetadataInfo.java" />
         <option value="$PROJECT_DIR$/src/controller/OptController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/controller/ShowController.java" />
       </list>
     </option>
   </component>
@@ -508,7 +522,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -562,6 +576,26 @@
               <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
               <item name="PicManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql-connector-java-8.0.11.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="xmpcore-5.1.3.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="PicManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicManage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -588,7 +622,7 @@
         <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,7 +636,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/IdeaUProjects/PicManage/src/test/ui.fxml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536895607329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537114925362" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
@@ -899,7 +933,12 @@
       <workItem from="1536654412159" duration="1649000" />
       <workItem from="1536735081018" duration="9783000" />
       <workItem from="1536839369609" duration="2426000" />
-      <workItem from="1536893287703" duration="1978000" />
+      <workItem from="1536893287703" duration="2477000" />
+      <workItem from="1536935729333" duration="372000" />
+      <workItem from="1536978179363" duration="2910000" />
+      <workItem from="1537060922031" duration="1413000" />
+      <workItem from="1537284712577" duration="821000" />
+      <workItem from="1537310097544" duration="196000" />
     </task>
     <servers />
   </component>
@@ -909,13 +948,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="393380000" />
+    <option name="totallyTimeSpent" value="399591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.103785105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16544567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -924,7 +963,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info active="true" anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" visible="true" weight="0.22551021" />
+      <window_info anchor="bottom" x="22" y="362" width="1876" height="356" id="Run" order="2" weight="0.22551021" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33571428" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -1012,17 +1051,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/Element.java" />
     <entry file="file://$PROJECT_DIR$/src/dialog/activity/activity.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_common/single_double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1032,13 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/ClickHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1073,36 +1098,36 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/menu.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/show.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/opt.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utility/PhotoAnalysis.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/concurrent/Task.java">
@@ -1162,21 +1187,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fxml/element.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/FolderMenu.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1196,19 +1216,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="904" column="18" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="88" column="41" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+        <state relative-caret-position="1938">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
           <folding>
             <element signature="method#hideMenu#0;class#MenuController#0" />
-            <element signature="method#refreshListAll#0;class#MenuController#0" />
             <element signature="method#refreshListPerson#0;class#MenuController#0" />
             <element signature="method#refreshListActivity#0;class#MenuController#0" />
             <element signature="method#refreshListBin#0;class#MenuController#0" />
@@ -1221,6 +1252,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/MetadataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1252,6 +1290,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/StringToTimestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="916">
+          <caret line="88" column="103" selection-start-line="88" selection-start-column="103" selection-end-line="88" selection-end-column="103" />
+          <folding>
+            <element signature="method#setSelectedList#0;class#ShowController#0" />
+            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/ElementController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2380">
@@ -1268,60 +1334,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/StringToTimestamp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/test_common/single_double.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="46">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fxml/info.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/utility/ClickHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="904" column="18" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="method#setSelectedList#0;class#ShowController#0" />
-            <element signature="method#setSelectedFolder#0;class#ShowController#0" />
-            <element signature="method#setPath#0;class#ShowController#0" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#5266#5267#0" expanded="true" />
-            <element signature="e#5302#5303#0" expanded="true" />
-            <element signature="e#5360#5361#0" expanded="true" />
-            <element signature="e#5410#5411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utility/MetadataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/OptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="69" column="82" lean-forward="true" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#pathBtnAction#0;class#OptController#0" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>

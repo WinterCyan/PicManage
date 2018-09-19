@@ -69,6 +69,7 @@ public class ShowController {
                 return new Task() {
                     @Override
                     protected Object call() throws Exception {
+                        System.out.println("Start time: "+System.currentTimeMillis());
                         mainController.optController.progress_bar.setVisible(true);
                         int progress = 0;
                         HashMap<String, String> map;
@@ -84,7 +85,8 @@ public class ShowController {
                             updateProgress(progress, paths.size());
                         }
                         mainController.optController.progress_bar.setVisible(false);
-                        Platform.runLater(() -> mainController.optController.path_text.setText(selectedPath.toString()));
+                        System.out.println("End time: "+System.currentTimeMillis());
+                        Platform.runLater(() -> mainController.optController.path_text.setText("Path: "+selectedPath.toString()));
                         return null;
                     }
                 };
